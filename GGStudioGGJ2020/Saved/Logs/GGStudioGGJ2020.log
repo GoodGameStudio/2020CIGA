@@ -788,3 +788,128 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.08.15-03.57.01:588][258]LogSlate: Window '玩家角色蓝图' being destroyed
 [2020.08.15-03.57.01:602][258]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
 [2020.08.15-03.57.01:602][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-03.58.45:322][379]LogHttp: Warning: 000001F95C817D80: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B07D5F92E-48C7-C46E-1FD8-21926CFD8E57%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e8d5cd634ee5d792f9fd32a1d811c220%7C0150a9b485504538a4c5a01d31e8c5d8%7Cf671f36c-a33f-44d2-bd0d-676cae173eea&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.08.15-03.58.45:322][379]LogHttp: Warning: 000001F95C817D80: request failed, libcurl error: 0 (No error)
+[2020.08.15-03.58.45:322][379]LogHttp: Warning: 000001F95C817D80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1f92a7a7f70 [can pipeline])
+[2020.08.15-03.58.45:322][379]LogHttp: Warning: 000001F95C817D80: libcurl info message cache 1 (Re-using existing connection! (#21) with host datarouter.ol.epicgames.com)
+[2020.08.15-03.58.45:322][379]LogHttp: Warning: 000001F95C817D80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (35.153.86.124) port 443 (#21))
+[2020.08.15-03.58.45:322][379]LogHttp: Warning: 000001F95C817D80: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.08.15-03.58.45:322][379]LogHttp: Warning: 000001F95C817D80: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2020.08.15-03.58.45:322][379]LogHttp: Warning: 000001F95C817D80: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.08.15-03.58.45:322][379]LogHttp: Warning: 000001F95C817D80: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.08.15-03.58.45:322][379]LogHttp: Warning: 000001F95C817D80: libcurl info message cache 7 (Closing connection 21)
+[2020.08.15-03.58.45:322][379]LogHttp: Warning: 000001F95C817D80: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.08.15-03.58.45:663][380]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B07D5F92E-48C7-C46E-1FD8-21926CFD8E57%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e8d5cd634ee5d792f9fd32a1d811c220%7C0150a9b485504538a4c5a01d31e8c5d8%7Cf671f36c-a33f-44d2-bd0d-676cae173eea&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.08.15-03.59.09:671][457]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CHAOS/JumpBlock.JumpBlock
+[2020.08.15-03.59.13:346][837]BlueprintLog: New page: 编译JumpBlock
+[2020.08.15-03.59.13:507][837]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.08.15-03.59.13:965][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CHAOS/JumpBlock" FILE="../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Content/CHAOS/JumpBlock.uasset" SILENT=true
+[2020.08.15-03.59.13:979][884]LogSavePackage: Moving '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/JumpBlockD245DB19446E38967146C3B6255A28A3.tmp' to '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Content/CHAOS/JumpBlock.uasset'
+[2020.08.15-03.59.13:991][884]AssetCheck: New page: 资源保存：JumpBlock
+[2020.08.15-03.59.13:992][884]LogContentValidation: Display: 正在验证Blueprint /Game/CHAOS/JumpBlock.JumpBlock
+[2020.08.15-03.59.15:194][ 19]LogSlate: Window 'JumpBlock' being destroyed
+[2020.08.15-03.59.15:199][ 19]LogSlate: Window 'JumpBlock' being destroyed
+[2020.08.15-03.59.15:212][ 19]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-03.59.15:212][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-03.59.16:635][183]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CHAOS/SpeedBlock.SpeedBlock
+[2020.08.15-03.59.20:853][640]BlueprintLog: New page: 编译SpeedBlock
+[2020.08.15-03.59.20:993][640]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2020.08.15-03.59.21:473][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CHAOS/SpeedBlock" FILE="../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Content/CHAOS/SpeedBlock.uasset" SILENT=true
+[2020.08.15-03.59.21:486][688]LogSavePackage: Moving '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/SpeedBlock819D0D964A8A137AA5E23AAB52587BA1.tmp' to '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Content/CHAOS/SpeedBlock.uasset'
+[2020.08.15-03.59.21:498][688]AssetCheck: New page: 资源保存：SpeedBlock
+[2020.08.15-03.59.21:498][688]LogContentValidation: Display: 正在验证Blueprint /Game/CHAOS/SpeedBlock.SpeedBlock
+[2020.08.15-03.59.22:682][816]LogSlate: Window 'SpeedBlock' being destroyed
+[2020.08.15-03.59.22:688][816]LogSlate: Window 'SpeedBlock' being destroyed
+[2020.08.15-03.59.22:696][816]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-03.59.22:696][816]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-03.59.25:109][ 92]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CHAOS/AtkBlock.AtkBlock
+[2020.08.15-03.59.25:317][ 92]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2020.08.15-03.59.25:341][ 92]LogSlate: Warning: The tab "CompilerResults" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2020.08.15-03.59.27:857][384]LogSlate: Window 'CompilerResults' being destroyed
+[2020.08.15-03.59.27:861][384]LogSlate: Window 'CompilerResults' being destroyed
+[2020.08.15-03.59.31:010][758]LogSlate: Window 'AtkBlock' being destroyed
+[2020.08.15-03.59.31:015][758]LogSlate: Window 'AtkBlock' being destroyed
+[2020.08.15-03.59.31:029][758]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-03.59.31:029][758]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-03.59.32:941][977]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2020.08.15-03.59.33:975][977]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.15-03.59.34:094][977]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.08.15-03.59.34:129][977]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.08.15-03.59.34:156][977]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.08.15-03.59.36:792][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.08.15-03.59.43:269][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.08.15-03.59.43:271][ 50]LogMetaData: Removing '/Game/CHAOS/AtkBlock.SKEL_AtkBlock_C' ref from Metadata '/Game/CHAOS/SpeedBlock_2.PackageMetaData'
+[2020.08.15-03.59.43:271][ 50]LogMetaData: Removing '/Game/CHAOS/AtkBlock.AtkBlock_C' ref from Metadata '/Game/CHAOS/SpeedBlock_2.PackageMetaData'
+[2020.08.15-03.59.43:291][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CHAOS/AtkBlock" FILE="../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Content/CHAOS/AtkBlock.uasset" SILENT=true
+[2020.08.15-03.59.43:298][ 50]LogSavePackage: Moving '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/AtkBlockE08ACCB04B704D8CDFAF82B8076DBB7A.tmp' to '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Content/CHAOS/AtkBlock.uasset'
+[2020.08.15-03.59.43:435][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2020.08.15-03.59.43:467][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.08.15-03.59.43:495][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.08.15-03.59.43:517][ 50]AssetCheck: New page: 资源保存：AtkBlock
+[2020.08.15-03.59.43:517][ 50]LogContentValidation: Display: 正在验证Blueprint /Game/CHAOS/AtkBlock.AtkBlock
+[2020.08.15-03.59.44:493][164]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CHAOS/AtkBlock.AtkBlock
+[2020.08.15-03.59.49:192][658]BlueprintLog: New page: 编译AtkBlock
+[2020.08.15-03.59.49:332][658]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.08.15-03.59.49:816][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CHAOS/AtkBlock" FILE="../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Content/CHAOS/AtkBlock.uasset" SILENT=true
+[2020.08.15-03.59.49:827][707]LogSavePackage: Moving '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/AtkBlock5ED0303E46AD5BB3F84E50B12097671E.tmp' to '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Content/CHAOS/AtkBlock.uasset'
+[2020.08.15-03.59.49:837][707]AssetCheck: New page: 资源保存：AtkBlock
+[2020.08.15-03.59.49:837][707]LogContentValidation: Display: 正在验证Blueprint /Game/CHAOS/AtkBlock.AtkBlock
+[2020.08.15-03.59.50:890][819]LogSlate: Window 'AtkBlock' being destroyed
+[2020.08.15-03.59.50:896][819]LogSlate: Window 'AtkBlock' being destroyed
+[2020.08.15-03.59.50:896][819]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-03.59.50:896][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-04.05.21:860][437]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\chaow\AppData\Roaming\Tencent\TIM\Temp\2XF]}HBZT84NV{_ZCL7[_0C.jpg)
+[2020.08.15-04.05.21:869][437]LogTexture: Display: 正在编译纹理：2XF__HBZT84NV__ZCL7__0C（AutoDXT、800X800）
+[2020.08.15-04.05.23:329][447]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\chaow\AppData\Roaming\Tencent\TIM\Temp\MWEA{0[H6M6EDSA({E_NZ`V.jpg)
+[2020.08.15-04.05.23:336][447]LogTexture: Display: 正在编译纹理：MWEA_0_H6M6EDSA__E_NZ_V（AutoDXT、800X800）
+[2020.08.15-04.05.24:650][453]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\chaow\AppData\Roaming\Tencent\TIM\Temp\(S{TNA$4$9AK$(0O$Q76NQI.jpg)
+[2020.08.15-04.05.24:656][453]LogTexture: Display: 正在编译纹理：_S_TNA_4_9AK__0O_Q76NQI（AutoDXT、800X800）
+[2020.08.15-04.05.27:076][573]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/CHAOS/Jump.Jump
+[2020.08.15-04.05.31:834][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CHAOS/Jump" FILE="../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Content/CHAOS/Jump.uasset" SILENT=true
+[2020.08.15-04.05.31:861][ 61]LogSavePackage: Moving '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Jump42A5B53940659B9BA3B2E5BEA16B70E0.tmp' to '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Content/CHAOS/Jump.uasset'
+[2020.08.15-04.05.31:872][ 61]AssetCheck: New page: 资源保存：Jump
+[2020.08.15-04.05.31:872][ 61]LogContentValidation: Display: 正在验证PaperSprite /Game/CHAOS/Jump.Jump
+[2020.08.15-04.05.33:179][208]LogSlate: Window 'Jump' being destroyed
+[2020.08.15-04.05.33:184][208]LogSlate: Window 'Jump' being destroyed
+[2020.08.15-04.05.33:194][208]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-04.05.33:194][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-04.05.37:524][706]Cmd: TRANSACTION UNDO
+[2020.08.15-04.05.37:524][706]LogEditorTransaction: Undo 创建Actor
+[2020.08.15-04.05.42:221][189]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CHAOS/AtkBlock.AtkBlock
+[2020.08.15-04.05.46:303][589]LogSlate: Window 'AtkBlock' being destroyed
+[2020.08.15-04.05.46:308][589]LogSlate: Window 'AtkBlock' being destroyed
+[2020.08.15-04.05.46:320][589]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-04.05.46:320][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-04.05.47:443][714]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/CHAOS/加速.加速
+[2020.08.15-04.05.51:752][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CHAOS/加速" FILE="../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Content/CHAOS/加速.uasset" SILENT=true
+[2020.08.15-04.05.51:761][149]LogSavePackage: Moving '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/加速34BF7C0640BCA40E3B7C4EBCDD3453FB.tmp' to '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Content/CHAOS/加速.uasset'
+[2020.08.15-04.05.51:772][149]AssetCheck: New page: 资源保存：加速
+[2020.08.15-04.05.51:772][149]LogContentValidation: Display: 正在验证PaperSprite /Game/CHAOS/加速.加速
+[2020.08.15-04.05.52:764][258]LogSlate: Window '加速' being destroyed
+[2020.08.15-04.05.52:768][258]LogSlate: Window '加速' being destroyed
+[2020.08.15-04.05.52:779][258]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-04.05.52:779][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-04.05.58:036][854]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/CHAOS/战斗力增加.战斗力增加
+[2020.08.15-04.06.01:076][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CHAOS/战斗力增加" FILE="../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Content/CHAOS/战斗力增加.uasset" SILENT=true
+[2020.08.15-04.06.01:087][166]LogSavePackage: Moving '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/战斗力增加4DF5A34046729ADE3A537EB01D15FE5A.tmp' to '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Content/CHAOS/战斗力增加.uasset'
+[2020.08.15-04.06.01:099][166]AssetCheck: New page: 资源保存：战斗力增加
+[2020.08.15-04.06.01:099][166]LogContentValidation: Display: 正在验证PaperSprite /Game/CHAOS/战斗力增加.战斗力增加
+[2020.08.15-04.06.02:249][293]LogSlate: Window '战斗力增加' being destroyed
+[2020.08.15-04.06.02:254][293]LogSlate: Window '战斗力增加' being destroyed
+[2020.08.15-04.06.02:264][293]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-04.06.02:264][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-04.06.29:434][666]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.08.15-04.06.29:438][666]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CHAOS/DemoMap' took 0.037
+[2020.08.15-04.06.29:439][666]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CHAOS/2XF__HBZT84NV__ZCL7__0C] ([1] browsable assets)...
+[2020.08.15-04.06.29:444][666]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/CHAOS/2XF__HBZT84NV__ZCL7__0C.2XF__HBZT84NV__ZCL7__0C]
+[2020.08.15-04.06.29:444][666]OBJ SavePackage: Finished generating thumbnails for package [/Game/CHAOS/2XF__HBZT84NV__ZCL7__0C]
+[2020.08.15-04.06.29:468][666]LogSavePackage: Moving '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/2XF__HBZT84NV__ZCL7__0C_Auto15DFEF43E41BBA1E30BE186B5381B466A.tmp' to '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/CHAOS/2XF__HBZT84NV__ZCL7__0C_Auto1.uasset'
+[2020.08.15-04.06.29:468][666]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CHAOS/MWEA_0_H6M6EDSA__E_NZ_V] ([1] browsable assets)...
+[2020.08.15-04.06.29:473][666]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/CHAOS/MWEA_0_H6M6EDSA__E_NZ_V.MWEA_0_H6M6EDSA__E_NZ_V]
+[2020.08.15-04.06.29:473][666]OBJ SavePackage: Finished generating thumbnails for package [/Game/CHAOS/MWEA_0_H6M6EDSA__E_NZ_V]
+[2020.08.15-04.06.29:481][666]LogSavePackage: Moving '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/MWEA_0_H6M6EDSA__E_NZ_V_Auto195756DF94B11E061B024B1B400ED268F.tmp' to '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/CHAOS/MWEA_0_H6M6EDSA__E_NZ_V_Auto1.uasset'
+[2020.08.15-04.06.29:481][666]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CHAOS/_S_TNA_4_9AK__0O_Q76NQI] ([1] browsable assets)...
+[2020.08.15-04.06.29:487][666]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/CHAOS/_S_TNA_4_9AK__0O_Q76NQI._S_TNA_4_9AK__0O_Q76NQI]
+[2020.08.15-04.06.29:487][666]OBJ SavePackage: Finished generating thumbnails for package [/Game/CHAOS/_S_TNA_4_9AK__0O_Q76NQI]
+[2020.08.15-04.06.29:494][666]LogSavePackage: Moving '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/_S_TNA_4_9AK__0O_Q76NQI_Auto12EE174894E5762C963ECF2BED1AA9392.tmp' to '../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/CHAOS/_S_TNA_4_9AK__0O_Q76NQI_Auto1.uasset'
+[2020.08.15-04.06.29:494][666]LogFileHelpers: Auto-saving content packages took 0.056
