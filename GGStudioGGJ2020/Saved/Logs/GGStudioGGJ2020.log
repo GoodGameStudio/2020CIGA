@@ -1,4 +1,4 @@
-﻿Log file open, 08/16/20 00:14:23
+﻿Log file open, 08/16/20 02:23:27
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: GGStudioGGJ2020
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.058701
+LogStats: Stats thread started at 0.044158
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -163,459 +163,478 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Engine.ini]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Engine.ini]
-[2020.08.15-16.14.23:509][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Engine.ini]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Engine.ini]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.08.15-16.14.23:509][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Engine.ini]
-[2020.08.15-16.14.23:509][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Engine.ini]
-[2020.08.15-16.14.23:513][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
-[2020.08.15-16.14.23:513][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.08.15-16.14.23:513][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.08.15-16.14.23:513][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
-[2020.08.15-16.14.23:513][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.08.15-16.14.23:513][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
-[2020.08.15-16.14.23:513][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.08.15-16.14.23:513][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.08.15-16.14.23:513][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.08.15-16.14.23:513][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.08.15-16.14.23:513][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.08.15-16.14.23:513][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.08.15-16.14.23:513][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.08.15-16.14.23:514][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.08.15-16.14.23:514][  0]LogInit: Selected Device Profile: [Windows]
-[2020.08.15-16.14.23:514][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.08.15-16.14.23:516][  0]LogHAL: Display: Platform has ~ 16 GB [17086820352 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.08.15-16.14.23:516][  0]LogInit: Going up to parent DeviceProfile []
-[2020.08.15-16.14.23:516][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.08.15-16.14.23:516][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.08.15-16.14.23:517][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Engine.ini]
-[2020.08.15-16.14.23:517][  0]LogInit: Computer: DESKTOP-CM3N7I4
-[2020.08.15-16.14.23:517][  0]LogInit: User: chaow
-[2020.08.15-16.14.23:517][  0]LogInit: CPU Page size=4096, Cores=8
-[2020.08.15-16.14.23:517][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.08.15-16.14.23:517][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.08.15-16.14.23:517][  0]LogMemory: Platform Memory Stats for Windows
-[2020.08.15-16.14.23:517][  0]LogMemory: Process Physical Memory: 106.54 MB used, 106.54 MB peak
-[2020.08.15-16.14.23:517][  0]LogMemory: Process Virtual Memory: 102.55 MB used, 102.55 MB peak
-[2020.08.15-16.14.23:517][  0]LogMemory: Physical Memory: 7589.66 MB used,  8705.61 MB free, 16295.26 MB total
-[2020.08.15-16.14.23:517][  0]LogMemory: Virtual Memory: 5179.48 MB used,  134212552.00 MB free, 134217728.00 MB total
-[2020.08.15-16.14.23:518][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.08.15-16.14.23:528][  0]LogInit: Using OS detected language (zh-CN).
-[2020.08.15-16.14.23:528][  0]LogInit: Using OS detected locale (zh-CN).
-[2020.08.15-16.14.23:529][  0]LogTextLocalizationManager: No specific localization for 'zh-CN' exists, so the 'zh-Hans' localization will be used.
-[2020.08.15-16.14.23:586][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
-[2020.08.15-16.14.23:586][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
-[2020.08.15-16.14.23:586][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
-[2020.08.15-16.14.23:586][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
-[2020.08.15-16.14.23:586][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
-[2020.08.15-16.14.23:586][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
-[2020.08.15-16.14.23:586][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
-[2020.08.15-16.14.23:586][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
-[2020.08.15-16.14.23:586][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
-[2020.08.15-16.14.23:587][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
-[2020.08.15-16.14.23:587][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
-[2020.08.15-16.14.23:624][  0]LogInit: Setting process to per monitor DPI aware
-[2020.08.15-16.14.23:650][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.08.15-16.14.23:650][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.08.15-16.14.23:732][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.08.15-16.14.23:732][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.08.15-16.14.23:732][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.08.15-16.14.23:732][  0]LogD3D11RHI: D3D11 adapters:
-[2020.08.15-16.14.23:792][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 SUPER' (Feature Level 11_0)
-[2020.08.15-16.14.23:792][  0]LogD3D11RHI:       8011/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.08.15-16.14.23:794][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.08.15-16.14.23:794][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.08.15-16.14.23:795][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.08.15-16.14.23:795][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.08.15-16.14.23:795][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.08.15-16.14.23:808][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.08.15-16.14.23:808][  0]LogD3D11RHI:     GPU DeviceId: 0x1e84 (for the marketing name, search the web for "GPU Device Id")
-[2020.08.15-16.14.23:808][  0]LogWindows: EnumDisplayDevices:
-[2020.08.15-16.14.23:808][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070 SUPER' (P:1 D:1)
-[2020.08.15-16.14.23:808][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:1)
-[2020.08.15-16.14.23:808][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
-[2020.08.15-16.14.23:809][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
-[2020.08.15-16.14.23:809][  0]LogWindows:    4. 'Lebo Virtual USB Monitor' (P:0 D:0)
-[2020.08.15-16.14.23:809][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2020.08.15-16.14.23:809][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 SUPER
-[2020.08.15-16.14.23:809][  0]LogD3D11RHI:   Driver Version: 445.87 (internal:26.21.14.4587, unified:445.87)
-[2020.08.15-16.14.23:809][  0]LogD3D11RHI:      Driver Date: 4-3-2020
-[2020.08.15-16.14.23:809][  0]LogRHI: Texture pool is 5607 MB (70% of 8011 MB)
-[2020.08.15-16.14.23:846][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.08.15-16.14.23:846][  0]LogD3D11RHI: Async texture creation enabled
-[2020.08.15-16.14.23:847][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061082).
-[2020.08.15-16.14.23:873][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2020.08.15-16.14.24:063][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.08.15-16.14.24:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.08.15-16.14.24:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.08.15-16.14.24:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.08.15-16.14.24:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.08.15-16.14.24:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.08.15-16.14.24:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.08.15-16.14.24:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.08.15-16.14.24:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.08.15-16.14.24:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.08.15-16.14.24:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.08.15-16.14.24:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.08.15-16.14.24:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.08.15-16.14.24:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.08.15-16.14.24:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.08.15-16.14.24:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.08.15-16.14.24:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.08.15-16.14.24:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.08.15-16.14.24:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.08.15-16.14.24:094][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.08.15-16.14.24:094][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.08.15-16.14.24:098][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.08.15-16.14.24:102][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.08.15-16.14.24:107][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.08.15-16.14.24:111][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.08.15-16.14.24:115][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.08.15-16.14.24:119][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.08.15-16.14.24:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.08.15-16.14.24:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.08.15-16.14.24:142][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.08.15-16.14.24:142][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.08.15-16.14.24:146][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.08.15-16.14.24:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.08.15-16.14.24:155][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.08.15-16.14.24:159][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.08.15-16.14.24:159][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.08.15-16.14.24:161][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.08.15-16.14.24:172][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Intermediate/Shaders/WorkingDirectory/44492/).
-[2020.08.15-16.14.24:172][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/chaow/AppData/Local/Temp/UnrealShaderWorkingDir/D975A9174905A5077B675690A93C7E5B/'.
-[2020.08.15-16.14.24:172][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.08.15-16.14.24:172][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.08.15-16.14.24:172][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.08.15-16.14.24:667][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.08.15-16.14.24:720][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/chaow/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.08.15-16.14.24:720][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/chaow/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.08.15-16.14.24:720][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.08.15-16.14.24:720][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.08.15-16.14.24:720][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.08.15-16.14.24:720][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.08.15-16.14.24:728][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.08.15-16.14.24:728][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.08.15-16.14.24:728][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.08.15-16.14.24:729][  0]LogDerivedDataCache: Using Local data cache path C:/Users/chaow/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.08.15-16.14.24:729][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.08.15-16.14.24:729][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.08.15-16.14.24:746][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.08.15-16.14.24:748][  0]LogSlate: Using FreeType 2.10.0
-[2020.08.15-16.14.24:748][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.08.15-16.14.24:782][  0]LogAssetRegistry: FAssetRegistry took 0.0018 seconds to start up
-[2020.08.15-16.14.24:969][  0]LogInit: Selected Device Profile: [Windows]
-[2020.08.15-16.14.25:081][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.08.15-16.14.25:081][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.08.15-16.14.25:081][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.08.15-16.14.25:081][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.08.15-16.14.25:081][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.08.15-16.14.25:091][  0]LogNetVersion: GGStudioGGJ2020 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1784089266)
-[2020.08.15-16.14.25:822][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.059189 seconds
-[2020.08.15-16.14.25:827][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.08.15-16.14.25:827][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.08.15-16.14.25:827][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.08.15-16.14.26:083][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.08.15-16.14.26:083][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.08.15-16.14.26:117][  0]SourceControl: 源码管理已禁用
-[2020.08.15-16.14.26:117][  0]SourceControl: 源码管理已禁用
-[2020.08.15-16.14.26:118][  0]SourceControl: 源码管理已禁用
-[2020.08.15-16.14.26:118][  0]SourceControl: 源码管理已禁用
-[2020.08.15-16.14.26:119][  0]SourceControl: 源码管理已禁用
-[2020.08.15-16.14.26:163][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.08.15-16.14.26:168][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.08.15-16.14.26:168][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.08.15-16.14.26:228][  0]LogOcInput: OculusInput pre-init called
-[2020.08.15-16.14.26:233][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.08.15-16.14.26:233][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.08.15-16.14.26:280][  0]LogEngine: Initializing Engine...
-[2020.08.15-16.14.26:281][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.08.15-16.14.26:281][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.08.15-16.14.26:520][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.08.15-16.14.26:527][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.08.15-16.14.26:539][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.08.15-16.14.26:539][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.08.15-16.14.26:539][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.08.15-16.14.26:539][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.08.15-16.14.26:539][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.08.15-16.14.26:539][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.08.15-16.14.26:539][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.08.15-16.14.26:539][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.08.15-16.14.26:539][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.08.15-16.14.26:539][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.08.15-16.14.26:559][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.08.15-16.14.26:559][  0]LogAudioMixer: Display: Name: 扬声器 (High Definition Audio Device)
-[2020.08.15-16.14.26:559][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.08.15-16.14.26:559][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.08.15-16.14.26:559][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.08.15-16.14.26:559][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.08.15-16.14.26:559][  0]LogAudioMixer: Display: Channel Order:
-[2020.08.15-16.14.26:559][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.08.15-16.14.26:559][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.08.15-16.14.26:570][  0]LogAudioMixer: Display: Using Audio Device 扬声器 (High Definition Audio Device)
-[2020.08.15-16.14.26:577][  0]LogInit: FAudioDevice initialized.
-[2020.08.15-16.14.26:577][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.08.15-16.14.26:624][  0]LogDerivedDataCache: Saved boot cache 0.05s 78MB C:/Users/chaow/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.08.15-16.14.26:628][  0]LogInit: Texture streaming: Enabled
-[2020.08.15-16.14.26:634][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.08.15-16.14.26:634][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.08.15-16.14.26:635][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.08.15-16.14.26:686][  0]LogInit: Transaction tracking system initialized
-[2020.08.15-16.14.26:692][  0]BlueprintLog: New page: 编辑器加载
-[2020.08.15-16.14.26:708][  0]LocalizationService: 本地化服务已禁用
-[2020.08.15-16.14.26:872][  0]LogFileCache: Scanning file cache for directory 'D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Content/' took 0.00s
-[2020.08.15-16.14.26:872][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.08.15-16.14.26:872][  0]LogCook: Display: Mobile HDR setting 1
-[2020.08.15-16.14.27:283][  0]SourceControl: 源码管理已禁用
-[2020.08.15-16.14.27:283][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.08.15-16.14.27:283][  0]LightingResults: New page: 光照构建
-[2020.08.15-16.14.27:283][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.08.15-16.14.27:283][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.08.15-16.14.27:283][  0]MapCheck: New page: 地图检测
-[2020.08.15-16.14.27:283][  0]LightingResults: New page: 光照构建
-[2020.08.15-16.14.27:307][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
-[2020.08.15-16.14.27:362][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2020.08.15-16.14.27:364][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.08.15-16.14.27:389][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
-[2020.08.15-16.14.27:390][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.08.15-16.14.27:390][  0]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.085毫秒。
-[2020.08.15-16.14.27:390][  0]LogFileHelpers: Loading map 'Template_Default' took 0.107
-[2020.08.15-16.14.27:526][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.08.15-16.14.27:530][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.08.15-16.14.27:534][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.08.15-16.14.27:538][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.08.15-16.14.27:541][  0]LogCollectionManager: Loaded 0 collections in 0.000459 seconds
-[2020.08.15-16.14.27:548][  0]LogFileCache: Scanning file cache for directory 'D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Collections/' took 0.00s
-[2020.08.15-16.14.27:548][  0]LogFileCache: Scanning file cache for directory 'D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Content/Developers/chaow/Collections/' took 0.00s
-[2020.08.15-16.14.27:548][  0]LogFileCache: Scanning file cache for directory 'D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Content/Collections/' took 0.00s
-[2020.08.15-16.14.27:548][  0]LogContentBrowser: Native class hierarchy populated in 0.0057 seconds. Added 3015 classes and 717 folders.
-[2020.08.15-16.14.27:550][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.08.15-16.14.27:572][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0001 seconds. Added 0 classes and 0 folders.
-[2020.08.15-16.14.27:574][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0001 seconds. Added 2 classes and 3 folders.
-[2020.08.15-16.14.27:611][  0]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.08.15-16.14.27:613][  0]LogSlate: Took 0.001633 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2020.08.15-16.14.27:614][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.08.15-16.14.27:616][  0]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.08.15-16.14.27:669][  0]LogRenderer: Reallocating scene render targets to support 1676x808 Format 10 NumSamples 1 (Frame:1).
-[2020.08.15-16.14.27:783][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.08.15-16.14.27:783][  0]LogLoad: (Engine Initialization) Total time: 4.80 seconds
-[2020.08.15-16.14.27:783][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.08.15-16.14.27:819][  0]LogAssetRegistry: Asset discovery search completed in 3.0373 seconds
-[2020.08.15-16.14.27:821][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
-[2020.08.15-16.14.27:822][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Engine.ini]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Engine.ini]
+[2020.08.15-18.23.27:802][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Engine.ini]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Engine.ini]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.08.15-18.23.27:802][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Engine.ini]
+[2020.08.15-18.23.27:802][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Engine.ini]
+[2020.08.15-18.23.27:806][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.15-18.23.27:806][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.15-18.23.27:807][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.15-18.23.27:807][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.08.15-18.23.27:808][  0]LogHAL: Display: Platform has ~ 16 GB [17086820352 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.08.15-18.23.27:808][  0]LogInit: Going up to parent DeviceProfile []
+[2020.08.15-18.23.27:808][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.15-18.23.27:808][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Scalability.ini]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.08.15-18.23.27:809][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Config/Windows/Engine.ini]
+[2020.08.15-18.23.27:809][  0]LogInit: Computer: DESKTOP-CM3N7I4
+[2020.08.15-18.23.27:809][  0]LogInit: User: chaow
+[2020.08.15-18.23.27:809][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.08.15-18.23.27:809][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.08.15-18.23.27:809][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.08.15-18.23.27:809][  0]LogMemory: Platform Memory Stats for Windows
+[2020.08.15-18.23.27:809][  0]LogMemory: Process Physical Memory: 106.30 MB used, 106.30 MB peak
+[2020.08.15-18.23.27:809][  0]LogMemory: Process Virtual Memory: 102.48 MB used, 102.48 MB peak
+[2020.08.15-18.23.27:809][  0]LogMemory: Physical Memory: 7385.79 MB used,  8909.47 MB free, 16295.26 MB total
+[2020.08.15-18.23.27:809][  0]LogMemory: Virtual Memory: 5179.48 MB used,  134212552.00 MB free, 134217728.00 MB total
+[2020.08.15-18.23.27:811][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.08.15-18.23.27:822][  0]LogInit: Using OS detected language (zh-CN).
+[2020.08.15-18.23.27:822][  0]LogInit: Using OS detected locale (zh-CN).
+[2020.08.15-18.23.27:822][  0]LogTextLocalizationManager: No specific localization for 'zh-CN' exists, so the 'zh-Hans' localization will be used.
+[2020.08.15-18.23.27:882][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
+[2020.08.15-18.23.27:882][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
+[2020.08.15-18.23.27:882][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
+[2020.08.15-18.23.27:882][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
+[2020.08.15-18.23.27:882][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
+[2020.08.15-18.23.27:882][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
+[2020.08.15-18.23.27:882][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
+[2020.08.15-18.23.27:882][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2020.08.15-18.23.27:882][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2020.08.15-18.23.27:882][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
+[2020.08.15-18.23.27:882][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2020.08.15-18.23.27:913][  0]LogInit: Setting process to per monitor DPI aware
+[2020.08.15-18.23.27:936][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.08.15-18.23.27:936][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.08.15-18.23.28:017][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.15-18.23.28:017][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.08.15-18.23.28:017][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.08.15-18.23.28:017][  0]LogD3D11RHI: D3D11 adapters:
+[2020.08.15-18.23.28:077][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 SUPER' (Feature Level 11_0)
+[2020.08.15-18.23.28:077][  0]LogD3D11RHI:       8011/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.08.15-18.23.28:079][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.15-18.23.28:079][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.15-18.23.28:080][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.15-18.23.28:080][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.15-18.23.28:080][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.08.15-18.23.28:096][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.08.15-18.23.28:096][  0]LogD3D11RHI:     GPU DeviceId: 0x1e84 (for the marketing name, search the web for "GPU Device Id")
+[2020.08.15-18.23.28:096][  0]LogWindows: EnumDisplayDevices:
+[2020.08.15-18.23.28:096][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070 SUPER' (P:1 D:1)
+[2020.08.15-18.23.28:096][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:1)
+[2020.08.15-18.23.28:096][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2020.08.15-18.23.28:096][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2020.08.15-18.23.28:097][  0]LogWindows:    4. 'Lebo Virtual USB Monitor' (P:0 D:0)
+[2020.08.15-18.23.28:097][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.08.15-18.23.28:097][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 SUPER
+[2020.08.15-18.23.28:097][  0]LogD3D11RHI:   Driver Version: 445.87 (internal:26.21.14.4587, unified:445.87)
+[2020.08.15-18.23.28:097][  0]LogD3D11RHI:      Driver Date: 4-3-2020
+[2020.08.15-18.23.28:097][  0]LogRHI: Texture pool is 5607 MB (70% of 8011 MB)
+[2020.08.15-18.23.28:139][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.08.15-18.23.28:140][  0]LogD3D11RHI: Async texture creation enabled
+[2020.08.15-18.23.28:140][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061082).
+[2020.08.15-18.23.28:159][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.08.15-18.23.28:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.08.15-18.23.28:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.08.15-18.23.28:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.08.15-18.23.28:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.08.15-18.23.28:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.08.15-18.23.28:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.08.15-18.23.28:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.08.15-18.23.28:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.08.15-18.23.28:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.08.15-18.23.28:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.08.15-18.23.28:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.08.15-18.23.28:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.08.15-18.23.28:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.08.15-18.23.28:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.08.15-18.23.28:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.08.15-18.23.28:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.08.15-18.23.28:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.08.15-18.23.28:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.08.15-18.23.28:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.08.15-18.23.28:362][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.08.15-18.23.28:362][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.08.15-18.23.28:367][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.08.15-18.23.28:371][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.08.15-18.23.28:375][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.08.15-18.23.28:379][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.08.15-18.23.28:383][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.08.15-18.23.28:387][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.08.15-18.23.28:402][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.08.15-18.23.28:402][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.08.15-18.23.28:410][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.08.15-18.23.28:410][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.08.15-18.23.28:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.08.15-18.23.28:419][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.08.15-18.23.28:424][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.08.15-18.23.28:428][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.08.15-18.23.28:428][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.08.15-18.23.28:429][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.08.15-18.23.28:439][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/Intermediate/Shaders/WorkingDirectory/44988/).
+[2020.08.15-18.23.28:439][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/chaow/AppData/Local/Temp/UnrealShaderWorkingDir/0D594B9340943A51FC97A4A032FEEDA1/'.
+[2020.08.15-18.23.28:440][  0]LogXGEController: Cleaning working directory: C:/Users/chaow/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.08.15-18.23.28:440][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.08.15-18.23.28:440][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.08.15-18.23.28:440][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.08.15-18.23.28:963][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.08.15-18.23.29:017][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/chaow/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.08.15-18.23.29:017][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/chaow/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.08.15-18.23.29:017][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.08.15-18.23.29:017][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.08.15-18.23.29:017][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHubFile/2020CIGA/GGStudioGGJ2020/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.15-18.23.29:017][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.08.15-18.23.29:024][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.08.15-18.23.29:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.15-18.23.29:024][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.08.15-18.23.29:025][  0]LogDerivedDataCache: Using Local data cache path C:/Users/chaow/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.08.15-18.23.29:025][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.08.15-18.23.29:025][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.08.15-18.23.29:042][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.08.15-18.23.29:044][  0]LogSlate: Using FreeType 2.10.0
+[2020.08.15-18.23.29:044][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.08.15-18.23.29:077][  0]LogAssetRegistry: FAssetRegistry took 0.0019 seconds to start up
+[2020.08.15-18.23.29:284][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.15-18.23.29:387][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.08.15-18.23.29:387][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.08.15-18.23.29:387][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.08.15-18.23.29:387][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.08.15-18.23.29:387][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.08.15-18.23.29:397][  0]LogNetVersion: GGStudioGGJ2020 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1784089266)
+[2020.08.15-18.23.30:119][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.064624 seconds
+[2020.08.15-18.23.30:124][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.08.15-18.23.30:125][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.08.15-18.23.30:125][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.08.15-18.23.30:377][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.08.15-18.23.30:379][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.08.15-18.23.30:409][  0]SourceControl: 源码管理已禁用
+[2020.08.15-18.23.30:409][  0]SourceControl: 源码管理已禁用
+[2020.08.15-18.23.30:409][  0]SourceControl: 源码管理已禁用
+[2020.08.15-18.23.30:410][  0]SourceControl: 源码管理已禁用
+[2020.08.15-18.23.30:410][  0]SourceControl: 源码管理已禁用
+[2020.08.15-18.23.30:459][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.08.15-18.23.30:466][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.15-18.23.30:466][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.15-18.23.30:524][  0]LogOcInput: OculusInput pre-init called
+[2020.08.15-18.23.30:530][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.08.15-18.23.30:530][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.08.15-18.23.30:575][  0]LogEngine: Initializing Engine...
+[2020.08.15-18.23.30:576][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.15-18.23.30:577][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.08.15-18.23.30:833][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.08.15-18.23.30:839][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.08.15-18.23.30:851][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.15-18.23.30:851][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.15-18.23.30:851][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.15-18.23.30:851][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.15-18.23.30:851][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.15-18.23.30:851][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.15-18.23.30:851][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.15-18.23.30:851][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.15-18.23.30:851][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.15-18.23.30:851][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.15-18.23.30:870][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.08.15-18.23.30:870][  0]LogAudioMixer: Display: Name: 扬声器 (High Definition Audio Device)
+[2020.08.15-18.23.30:870][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.08.15-18.23.30:870][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.08.15-18.23.30:870][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.08.15-18.23.30:870][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.08.15-18.23.30:870][  0]LogAudioMixer: Display: Channel Order:
+[2020.08.15-18.23.30:870][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.15-18.23.30:870][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.08.15-18.23.30:894][  0]LogAudioMixer: Display: Using Audio Device 扬声器 (High Definition Audio Device)
+[2020.08.15-18.23.30:901][  0]LogInit: FAudioDevice initialized.
+[2020.08.15-18.23.30:902][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.08.15-18.23.30:953][  0]LogDerivedDataCache: Saved boot cache 0.05s 78MB C:/Users/chaow/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.08.15-18.23.30:957][  0]LogInit: Texture streaming: Enabled
+[2020.08.15-18.23.30:963][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.08.15-18.23.30:963][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.08.15-18.23.30:964][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.08.15-18.23.31:010][  0]LogInit: Transaction tracking system initialized
+[2020.08.15-18.23.31:016][  0]BlueprintLog: New page: 编辑器加载
+[2020.08.15-18.23.31:033][  0]LocalizationService: 本地化服务已禁用
+[2020.08.15-18.23.31:207][  0]LogFileCache: Scanning file cache for directory 'D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Content/' took 0.00s
+[2020.08.15-18.23.31:207][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.08.15-18.23.31:207][  0]LogCook: Display: Mobile HDR setting 1
+[2020.08.15-18.23.31:630][  0]SourceControl: 源码管理已禁用
+[2020.08.15-18.23.31:630][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.15-18.23.31:630][  0]LightingResults: New page: 光照构建
+[2020.08.15-18.23.31:630][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-18.23.31:630][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-18.23.31:631][  0]MapCheck: New page: 地图检测
+[2020.08.15-18.23.31:631][  0]LightingResults: New page: 光照构建
+[2020.08.15-18.23.31:659][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.08.15-18.23.31:709][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.08.15-18.23.31:711][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.15-18.23.31:739][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.08.15-18.23.31:739][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.15-18.23.31:739][  0]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.077毫秒。
+[2020.08.15-18.23.31:739][  0]LogFileHelpers: Loading map 'Template_Default' took 0.109
+[2020.08.15-18.23.31:879][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.15-18.23.31:885][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.15-18.23.31:889][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.15-18.23.31:893][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.15-18.23.31:895][  0]LogCollectionManager: Loaded 0 collections in 0.000447 seconds
+[2020.08.15-18.23.31:904][  0]LogFileCache: Scanning file cache for directory 'D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Saved/Collections/' took 0.00s
+[2020.08.15-18.23.31:904][  0]LogFileCache: Scanning file cache for directory 'D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Content/Developers/chaow/Collections/' took 0.00s
+[2020.08.15-18.23.31:904][  0]LogFileCache: Scanning file cache for directory 'D:/GitHubFile/2020CIGA/GGStudioGGJ2020/Content/Collections/' took 0.00s
+[2020.08.15-18.23.31:904][  0]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 3015 classes and 717 folders.
+[2020.08.15-18.23.31:905][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.08.15-18.23.31:927][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.08.15-18.23.31:929][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2020.08.15-18.23.31:995][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.08.15-18.23.31:997][  0]LogSlate: Took 0.001227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.08.15-18.23.31:997][  0]LogSlate: Took 0.000077 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.08.15-18.23.32:000][  0]LogSlate: Took 0.000085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.08.15-18.23.32:056][  0]LogRenderer: Reallocating scene render targets to support 1676x808 Format 10 NumSamples 1 (Frame:1).
+[2020.08.15-18.23.32:179][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.08.15-18.23.32:179][  0]LogLoad: (Engine Initialization) Total time: 4.89 seconds
+[2020.08.15-18.23.32:179][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.08.15-18.23.32:210][  0]LogAssetRegistry: Asset discovery search completed in 3.1341 seconds
+[2020.08.15-18.23.32:213][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2020.08.15-18.23.32:214][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.08.15-18.23.32:301][  0]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.15-18.23.36:647][452]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.15-18.23.36:658][452]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Liu/levelselect.levelselect
+[2020.08.15-18.23.36:834][452]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2020.08.15-18.23.37:661][452]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.08.15-18.23.40:313][741]LogSlate: Window 'levelselect' being destroyed
+[2020.08.15-18.23.40:318][741]LogSlate: Window 'levelselect' being destroyed
+[2020.08.15-18.23.40:320][741]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-18.23.40:320][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-18.23.40:324][741]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-18.23.40:325][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-18.23.41:363][849]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Liu/menu1.menu1
+[2020.08.15-18.23.55:529][343]LogSlate: Window 'menu1' being destroyed
+[2020.08.15-18.23.55:535][343]LogSlate: Window 'menu1' being destroyed
+[2020.08.15-18.23.55:536][343]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-18.23.55:536][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-18.23.55:553][343]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-18.23.55:554][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
