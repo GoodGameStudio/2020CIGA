@@ -645,3 +645,367 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.08.15-04.55.16:894][786]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Trombe/2DSideScroller/Sprites/IdleFrames/IdleCycle2.IdleCycle2
 [2020.08.15-04.55.19:135][913]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
 [2020.08.15-04.55.19:135][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-05.04.24:936][332]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Trombe/2DSideScroller/Sprites/IdleFrames/IdleCycle1.IdleCycle1
+[2020.08.15-05.04.30:841][679]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-05.04.30:841][679]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-05.04.56:920][230]LogAIModule: Creating AISystem for world DemoMap
+[2020.08.15-05.04.56:929][230]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/DemoMap.DemoMap
+[2020.08.15-05.04.57:299][230]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2020.08.15-05.04.57:306][230]Cmd: MAP LOAD FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Maps/DemoMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.15-05.04.57:309][230]LightingResults: New page: 光照构建
+[2020.08.15-05.04.57:310][230]LoadErrors: New page: 正在加载地图：DemoMap.umap
+[2020.08.15-05.04.57:311][230]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-05.04.57:311][230]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-05.04.57:313][230]MapCheck: New page: 地图检测
+[2020.08.15-05.04.57:313][230]LightingResults: New page: 光照构建
+[2020.08.15-05.04.57:347][230]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.08.15-05.04.57:434][230]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.15-05.04.57:466][230]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2020.08.15-05.04.57:477][230]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.15-05.04.57:477][230]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.114毫秒。
+[2020.08.15-05.04.57:477][230]LogFileHelpers: Loading map 'DemoMap' took 0.173
+[2020.08.15-05.05.01:062][442]LogTemp: Repeating last play command: 选中的视口
+[2020.08.15-05.05.01:073][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.15-05.05.01:074][442]PIE: New page: PIE会话：DemoMap（2020年8月15日 下午9:05:01）
+[2020.08.15-05.05.01:076][442]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.08.15-05.05.01:078][442]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.08.15-05.05.01:078][442]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DemoMap
+[2020.08.15-05.05.01:081][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002990s)
+[2020.08.15-05.05.01:082][442]LogAIModule: Creating AISystem for world DemoMap
+[2020.08.15-05.05.01:083][442]LogPlayLevel: PIE: World Init took: (0.001332s)
+[2020.08.15-05.05.01:083][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DemoMap.DemoMap to /Game/Maps/UEDPIE_0_DemoMap.DemoMap (0.004684s)
+[2020.08.15-05.05.01:112][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.08.15-05.05.01:115][442]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.15-05.05.01:115][442]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.15-05.05.01:115][442]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.15-05.05.01:115][442]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.15-05.05.01:115][442]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.15-05.05.01:115][442]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.15-05.05.01:115][442]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.15-05.05.01:115][442]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.15-05.05.01:115][442]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.15-05.05.01:115][442]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.15-05.05.01:128][442]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.08.15-05.05.01:128][442]LogAudioMixer: Display: Name: 扬声器 (Realtek High Definition Audio)
+[2020.08.15-05.05.01:128][442]LogAudioMixer: Display: Is Default: Yes
+[2020.08.15-05.05.01:128][442]LogAudioMixer: Display: Sample Rate: 48000
+[2020.08.15-05.05.01:128][442]LogAudioMixer: Display: Channel Count Used: 2
+[2020.08.15-05.05.01:128][442]LogAudioMixer: Display: Device Channel Count: 2
+[2020.08.15-05.05.01:128][442]LogAudioMixer: Display: Channel Order:
+[2020.08.15-05.05.01:128][442]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.15-05.05.01:128][442]LogAudioMixer: Display: 1: FrontRight
+[2020.08.15-05.05.01:161][442]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek High Definition Audio)
+[2020.08.15-05.05.01:164][442]LogInit: FAudioDevice initialized.
+[2020.08.15-05.05.01:180][442]LogLoad: Game class is '游戏模式_C'
+[2020.08.15-05.05.01:183][442]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DemoMap.DemoMap up for play (max tick rate 60) at 2020.08.15-13.05.01
+[2020.08.15-05.05.01:183][442]LogWorld: Bringing up level for play took: 0.001048
+[2020.08.15-05.05.01:184][442]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.08.15-05.05.01:193][442]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0016 seconds. Added 20 classes and 0 folders.
+[2020.08.15-05.05.01:195][442]PIE: /Game/Maps/UEDPIE_0_DemoMap在编辑器中运行的起始时间0.935
+[2020.08.15-05.05.02:614][524]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.08.15-05.05.02:619][524]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.08.15-05.05.02:638][524]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.08.15-05.05.02:638][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.15-05.05.02:638][524]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DemoMap
+[2020.08.15-05.05.02:638][524]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.08.15-05.05.02:638][524]LogWorld: UWorld::CleanupWorld for DemoMap, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-05.05.02:639][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-05.05.02:648][524]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.15-05.05.02:652][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-05.05.02:680][524]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.08.15-05.05.02:684][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.15-05.05.02:687][524]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.08.15-05.05.02:720][526]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.08.15-05.05.25:000][858]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Huang/NewPaperSprite.NewPaperSprite
+[2020.08.15-05.05.28:836][ 49]LogSlate: Window 'NewPaperSprite' being destroyed
+[2020.08.15-05.06.01:105][904]LogHttp: Warning: 000001FAD557D940: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.08.15-05.06.01:105][904]LogHttp: Warning: 000001FAD557D940: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.08.15-05.06.01:105][904]LogHttp: Warning: 000001FAD557D940: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1fa74b97f70 [can pipeline])
+[2020.08.15-05.06.01:105][904]LogHttp: Warning: 000001FAD557D940: libcurl info message cache 1 (Re-using existing connection! (#8) with proxy 127.0.0.1)
+[2020.08.15-05.06.01:105][904]LogHttp: Warning: 000001FAD557D940: libcurl info message cache 2 (Connected to 127.0.0.1 (127.0.0.1) port 50114 (#8))
+[2020.08.15-05.06.01:105][904]LogHttp: Warning: 000001FAD557D940: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.08.15-05.06.01:105][904]LogHttp: Warning: 000001FAD557D940: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.08.15-05.06.01:105][904]LogHttp: Warning: 000001FAD557D940: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.08.15-05.06.01:105][904]LogHttp: Warning: 000001FAD557D940: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.08.15-05.06.01:105][904]LogHttp: Warning: 000001FAD557D940: libcurl info message cache 7 (Closing connection 8)
+[2020.08.15-05.06.01:105][904]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.08.15-05.08.07:233][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/test/NewPaperFlipbook" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/test/NewPaperFlipbook.uasset" SILENT=true
+[2020.08.15-05.08.07:239][339]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/NewPaperFlipbook73BB9FD44CB46C7578BDA0A7681F3A53.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/test/NewPaperFlipbook.uasset'
+[2020.08.15-05.08.07:247][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/test/NewPaperSprite" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/test/NewPaperSprite.uasset" SILENT=true
+[2020.08.15-05.08.07:256][339]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/NewPaperSprite9B16C3634535A48D1C2CC79A9134F47B.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/test/NewPaperSprite.uasset'
+[2020.08.15-05.08.07:653][339]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2020.08.15-05.08.07:687][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.08.15-05.08.07:725][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.08.15-05.08.07:766][339]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.08.15-05.08.07:797][339]AssetCheck: New page: 资源保存：多个资源
+[2020.08.15-05.08.07:797][339]LogContentValidation: Display: 正在验证PaperFlipbook /Game/Huang/test/NewPaperFlipbook.NewPaperFlipbook
+[2020.08.15-05.08.07:797][339]LogContentValidation: Display: 正在验证PaperSprite /Game/Huang/test/NewPaperSprite.NewPaperSprite
+[2020.08.15-05.08.10:725][511]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Huang/test/NewPaperFlipbook.NewPaperFlipbook
+[2020.08.15-05.08.18:408][962]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-05.08.18:408][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-05.08.19:589][ 29]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-05.08.19:589][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-05.08.41:308][317]LogHttp: Warning: 000001FAD9E7A200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.08.15-05.08.41:308][317]LogHttp: Warning: 000001FAD9E7A200: request failed, libcurl error: 35 (SSL connect error)
+[2020.08.15-05.08.41:308][317]LogHttp: Warning: 000001FAD9E7A200: libcurl info message cache 0 (  Trying 127.0.0.1...)
+[2020.08.15-05.08.41:308][317]LogHttp: Warning: 000001FAD9E7A200: libcurl info message cache 1 (TCP_NODELAY set)
+[2020.08.15-05.08.41:308][317]LogHttp: Warning: 000001FAD9E7A200: libcurl info message cache 2 (Connected to 127.0.0.1 (127.0.0.1) port 50114 (#9))
+[2020.08.15-05.08.41:308][317]LogHttp: Warning: 000001FAD9E7A200: libcurl info message cache 3 (allocate connect buffer!)
+[2020.08.15-05.08.41:308][317]LogHttp: Warning: 000001FAD9E7A200: libcurl info message cache 4 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2020.08.15-05.08.41:308][317]LogHttp: Warning: 000001FAD9E7A200: libcurl info message cache 5 (Ignoring Content-Length in CONNECT 200 response)
+[2020.08.15-05.08.41:308][317]LogHttp: Warning: 000001FAD9E7A200: libcurl info message cache 6 (Proxy replied OK to CONNECT request)
+[2020.08.15-05.08.41:308][317]LogHttp: Warning: 000001FAD9E7A200: libcurl info message cache 7 (CONNECT phase completed!)
+[2020.08.15-05.08.41:308][317]LogHttp: Warning: 000001FAD9E7A200: libcurl info message cache 8 (ALPN, offering http/1.1)
+[2020.08.15-05.08.41:308][317]LogHttp: Warning: 000001FAD9E7A200: libcurl info message cache 9 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2020.08.15-05.08.41:308][317]LogHttp: Warning: 000001FAD9E7A200: libcurl info message cache 10 (SSL re-using session ID)
+[2020.08.15-05.08.41:308][317]LogHttp: Warning: 000001FAD9E7A200: libcurl info message cache 11 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2020.08.15-05.08.41:308][317]LogHttp: Warning: 000001FAD9E7A200: libcurl info message cache 12 (CONNECT phase completed!)
+[2020.08.15-05.08.41:308][317]LogHttp: Warning: 000001FAD9E7A200: libcurl info message cache 13 (CONNECT phase completed!)
+[2020.08.15-05.08.41:308][317]LogHttp: Warning: 000001FAD9E7A200: libcurl info message cache 14 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2020.08.15-05.08.41:308][317]LogHttp: Warning: 000001FAD9E7A200: libcurl info message cache 15 (Closing connection 9)
+[2020.08.15-05.08.41:324][318]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.08.15-05.09.41:504][914]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Trombe/2DSideScroller/Sprites/RunningAnimation.RunningAnimation
+[2020.08.15-05.10.32:729][842]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Huang/test/NewPaperSprite1.NewPaperSprite1
+[2020.08.15-05.11.44:860][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/test/NewPaperSprite1" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/test/NewPaperSprite1.uasset" SILENT=true
+[2020.08.15-05.11.44:869][ 70]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/NewPaperSprite15DFD13F24B664A0D0B0BCCA83BCFFDFE.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/test/NewPaperSprite1.uasset'
+[2020.08.15-05.11.44:885][ 70]AssetCheck: New page: 资源保存：NewPaperSprite1
+[2020.08.15-05.11.44:885][ 70]LogContentValidation: Display: 正在验证PaperSprite /Game/Huang/test/NewPaperSprite1.NewPaperSprite1
+[2020.08.15-05.11.47:667][230]LogHttp: Warning: 000001FAD557E980: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.08.15-05.11.47:667][230]LogHttp: Warning: 000001FAD557E980: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.08.15-05.11.47:667][230]LogHttp: Warning: 000001FAD557E980: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1fa74b97f70 [can pipeline])
+[2020.08.15-05.11.47:667][230]LogHttp: Warning: 000001FAD557E980: libcurl info message cache 1 (Re-using existing connection! (#10) with proxy 127.0.0.1)
+[2020.08.15-05.11.47:667][230]LogHttp: Warning: 000001FAD557E980: libcurl info message cache 2 (Connected to 127.0.0.1 (127.0.0.1) port 50114 (#10))
+[2020.08.15-05.11.47:667][230]LogHttp: Warning: 000001FAD557E980: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.08.15-05.11.47:667][230]LogHttp: Warning: 000001FAD557E980: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.08.15-05.11.47:667][230]LogHttp: Warning: 000001FAD557E980: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.08.15-05.11.47:667][230]LogHttp: Warning: 000001FAD557E980: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.08.15-05.11.47:667][230]LogHttp: Warning: 000001FAD557E980: libcurl info message cache 7 (Closing connection 10)
+[2020.08.15-05.11.47:667][230]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.08.15-05.11.49:422][334]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-05.11.49:422][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-05.13.06:551][672]LogSlate: Window 'NewPaperFlipbook' being destroyed
+[2020.08.15-05.13.06:556][672]LogSlate: Window 'NewPaperFlipbook' being destroyed
+[2020.08.15-05.13.06:564][672]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-05.13.06:564][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-05.13.09:274][833]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-05.13.09:274][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-05.14.58:663][277]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2020.08.15-05.14.58:671][277]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/DemoMap' took 0.050
+[2020.08.15-05.14.58:674][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Huang/test/NewPaperFlipbook] ([1] browsable assets)...
+[2020.08.15-05.14.58:674][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/Huang/test/NewPaperFlipbook]
+[2020.08.15-05.14.58:674][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/test/NewPaperFlipbook" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/test/NewPaperFlipbook_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.08.15-05.14.58:678][277]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/NewPaperFlipbook_Auto105A6C96F4087782B439D57AEA2CA3B11.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/test/NewPaperFlipbook_Auto1.uasset'
+[2020.08.15-05.14.58:679][277]LogFileHelpers: Auto-saving content packages took 0.008
+[2020.08.15-05.15.49:531][278]LogWindows: Warning: CreateProc failed: 系统找不到指定的文件。 (0x00000002)
+[2020.08.15-05.15.49:531][278]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2020.08.15-05.15.49:531][278]LogWindows: Warning: CreateProc failed: 系统找不到指定的文件。 (0x00000002)
+[2020.08.15-05.15.49:531][278]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2020.08.15-05.15.49:531][278]LogWindows: Warning: CreateProc failed: 系统找不到指定的文件。 (0x00000002)
+[2020.08.15-05.15.49:531][278]LogWindows: Warning: URL: C:\Users\37803\AppData\Local/Programs/Git/cmd/git.exe version
+[2020.08.15-05.15.49:531][278]LogWindows: Warning: CreateProc failed: 系统找不到指定的文件。 (0x00000002)
+[2020.08.15-05.15.49:531][278]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2020.08.15-05.15.49:531][278]LogWindows: Warning: CreateProc failed: 系统找不到指定的文件。 (0x00000002)
+[2020.08.15-05.15.49:531][278]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2020.08.15-05.15.49:532][278]LogWindows: Warning: CreateProc failed: 系统找不到指定的文件。 (0x00000002)
+[2020.08.15-05.15.49:532][278]LogWindows: Warning: URL: C:\Users\37803\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2020.08.15-05.15.49:533][278]LogWindows: Warning: CreateProc failed: 系统找不到指定的文件。 (0x00000002)
+[2020.08.15-05.15.49:533][278]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2020.08.15-05.17.15:199][428]LogHttp: Warning: 000001FAD557A480: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.08.15-05.17.15:199][428]LogHttp: Warning: 000001FAD557A480: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.08.15-05.17.15:199][428]LogHttp: Warning: 000001FAD557A480: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1fa74b97f70 [can pipeline])
+[2020.08.15-05.17.15:199][428]LogHttp: Warning: 000001FAD557A480: libcurl info message cache 1 (Re-using existing connection! (#12) with proxy 127.0.0.1)
+[2020.08.15-05.17.15:199][428]LogHttp: Warning: 000001FAD557A480: libcurl info message cache 2 (Connected to 127.0.0.1 (127.0.0.1) port 50114 (#12))
+[2020.08.15-05.17.15:199][428]LogHttp: Warning: 000001FAD557A480: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.08.15-05.17.15:199][428]LogHttp: Warning: 000001FAD557A480: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10053)
+[2020.08.15-05.17.15:199][428]LogHttp: Warning: 000001FAD557A480: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.08.15-05.17.15:199][428]LogHttp: Warning: 000001FAD557A480: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.08.15-05.17.15:200][428]LogHttp: Warning: 000001FAD557A480: libcurl info message cache 7 (Closing connection 12)
+[2020.08.15-05.17.15:200][428]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.08.15-05.17.22:021][803]SourceControl: 源码管理已禁用
+[2020.08.15-05.17.22:021][803]LogSlate: Window '源码管理登陆' being destroyed
+[2020.08.15-05.38.52:642][405]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\google download\CGJModer\chair.fbx)
+[2020.08.15-05.38.52:865][405]LogFbx: Loading FBX Scene from H:\google download\CGJModer\chair.fbx
+[2020.08.15-05.38.52:913][405]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.15-05.39.12:665][405]LogSlate: Window 'FBX导入选项' being destroyed
+[2020.08.15-05.39.13:353][405]LogLinker: 未能加载“{FileName}”：无法找到文件。
+[2020.08.15-05.39.13:354][405]LogLinker: 未能加载“{FileName}”：无法找到文件。
+[2020.08.15-05.39.13:354][405]LogFbxMaterialImport: Warning: Unable to find Texture file H:\google download\archive\贴图.JPG
+[2020.08.15-05.39.13:361][405]LogMaterial: Display: Missing cached shader map for material 淡亚光板, compiling. 
+[2020.08.15-05.39.13:441][405]LogFbx: Display: Triangulating static mesh Box03
+[2020.08.15-05.39.13:734][405]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.08.15-05.39.13:734][405]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.08.15-05.39.13:734][405]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.08.15-05.39.13:815][405]LogStaticMesh: 正在构建静态网格体chair……
+[2020.08.15-05.39.13:989][405]LogStaticMesh: Built static mesh [0.16s] /Game/Huang/chair.chair
+[2020.08.15-05.39.17:259][575]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Huang/chair.chair
+[2020.08.15-05.39.19:166][575]LogSlate: Took 0.031950 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.08.15-05.39.19:366][576]LogUObjectHash: Compacting FUObjectHashTables data took   6.27ms
+[2020.08.15-05.39.19:370][576]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/DemoMap' took 0.045
+[2020.08.15-05.39.19:370][576]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Huang/chair] ([1] browsable assets)...
+[2020.08.15-05.39.19:382][576]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Huang/chair.chair]
+[2020.08.15-05.39.19:382][576]OBJ SavePackage: Finished generating thumbnails for package [/Game/Huang/chair]
+[2020.08.15-05.39.19:382][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/chair" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/chair_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2020.08.15-05.39.19:452][576]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/chair_Auto29F726D96412D6F8232604EB10B239099.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/chair_Auto2.uasset'
+[2020.08.15-05.39.19:453][576]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Huang/淡亚光板] ([1] browsable assets)...
+[2020.08.15-05.39.19:464][576]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Huang/淡亚光板.淡亚光板]
+[2020.08.15-05.39.19:464][576]OBJ SavePackage: Finished generating thumbnails for package [/Game/Huang/淡亚光板]
+[2020.08.15-05.39.19:464][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/淡亚光板" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/淡亚光板_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2020.08.15-05.39.19:475][576]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/淡亚光板_Auto26BE122A646F11423EE63069113929D90.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/淡亚光板_Auto2.uasset'
+[2020.08.15-05.39.19:475][576]LogFileHelpers: Auto-saving content packages took 0.106
+[2020.08.15-05.39.25:116][907]LogSlate: Window 'chair' being destroyed
+[2020.08.15-05.39.25:138][907]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-05.39.25:138][907]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-05.39.31:983][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.08.15-05.39.33:087][293]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.15-05.39.33:248][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.08.15-05.40.03:765][112]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\google download\CGJModer\chair.fbx)
+[2020.08.15-05.40.03:780][112]LogFbx: Loading FBX Scene from H:\google download\CGJModer\chair.fbx
+[2020.08.15-05.40.03:790][112]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.15-05.40.07:911][112]LogSlate: Window 'FBX导入选项' being destroyed
+[2020.08.15-05.40.07:941][112]LogFbxMaterialImport: Warning: Unable to find Texture file H:\google download\archive\贴图.JPG
+[2020.08.15-05.40.07:948][112]LogMaterial: Display: Missing cached shader map for material 淡亚光板, compiling. 
+[2020.08.15-05.40.07:961][112]LogFbx: Display: Triangulating static mesh Box03
+[2020.08.15-05.40.08:225][112]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.08.15-05.40.08:225][112]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.08.15-05.40.08:225][112]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.08.15-05.40.08:227][112]LogStaticMesh: 正在构建静态网格体chair……
+[2020.08.15-05.40.08:390][112]LogStaticMesh: Built static mesh [0.16s] /Game/Huang/chair.chair
+[2020.08.15-05.40.10:239][214]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Huang/chair.chair
+[2020.08.15-05.40.14:782][453]LogSlate: Window 'chair' being destroyed
+[2020.08.15-05.40.14:800][453]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-05.40.14:800][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-05.40.20:449][774]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Huang/淡亚光板.淡亚光板
+[2020.08.15-05.40.20:458][774]LogMaterial: Display: Missing cached shader map for material 淡亚光板, compiling. 
+[2020.08.15-05.40.20:728][774]LogSlate: Warning: The tab "MaterialEditor_Stats" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2020.08.15-05.40.20:747][774]LogMaterial: Display: Missing cached shader map for material 淡亚光板, compiling. 
+[2020.08.15-05.40.20:766][774]LogMaterial: Display: Missing cached shader map for material 淡亚光板, compiling. 
+[2020.08.15-05.40.20:783][774]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.08.15-05.40.20:783][774]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.08.15-05.40.20:783][774]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.08.15-05.40.20:790][774]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.08.15-05.40.21:487][774]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2020.08.15-05.40.21:487][774]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.08.15-05.40.21:730][774]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.08.15-05.40.22:161][791]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.08.15-05.40.22:316][800]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.08.15-05.40.22:600][816]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.08.15-05.40.23:433][865]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.08.15-05.40.23:719][878]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.08.15-05.40.23:778][880]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.08.15-05.40.23:907][881]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.08.15-05.40.23:907][881]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.08.15-05.40.23:907][881]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.08.15-05.40.23:907][881]MaterialEditorStats: Texture samplers: 2/16
+[2020.08.15-05.40.24:320][906]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.08.15-05.40.25:085][951]LogSlate: Window '淡亚光板' being destroyed
+[2020.08.15-05.40.25:096][951]LogSlate: Window '淡亚光板' being destroyed
+[2020.08.15-05.40.25:138][951]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-05.40.25:138][951]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-05.41.03:750][226]LogHttp: Warning: 000001FB30873B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.08.15-05.41.03:750][226]LogHttp: Warning: 000001FB30873B00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.08.15-05.41.03:750][226]LogHttp: Warning: 000001FB30873B00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1fa74b97f70 [can pipeline])
+[2020.08.15-05.41.03:750][226]LogHttp: Warning: 000001FB30873B00: libcurl info message cache 1 (Re-using existing connection! (#20) with proxy 127.0.0.1)
+[2020.08.15-05.41.03:750][226]LogHttp: Warning: 000001FB30873B00: libcurl info message cache 2 (Connected to 127.0.0.1 (127.0.0.1) port 50114 (#20))
+[2020.08.15-05.41.03:750][226]LogHttp: Warning: 000001FB30873B00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.08.15-05.41.03:750][226]LogHttp: Warning: 000001FB30873B00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10053)
+[2020.08.15-05.41.03:750][226]LogHttp: Warning: 000001FB30873B00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.08.15-05.41.03:750][226]LogHttp: Warning: 000001FB30873B00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.08.15-05.41.03:750][226]LogHttp: Warning: 000001FB30873B00: libcurl info message cache 7 (Closing connection 20)
+[2020.08.15-05.41.03:750][226]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.08.15-05.43.24:489][937]LogHttp: Warning: 000001FB30871940: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.08.15-05.43.24:489][937]LogHttp: Warning: 000001FB30871940: request failed, libcurl error: 35 (SSL connect error)
+[2020.08.15-05.43.24:489][937]LogHttp: Warning: 000001FB30871940: libcurl info message cache 0 (  Trying 127.0.0.1...)
+[2020.08.15-05.43.24:490][937]LogHttp: Warning: 000001FB30871940: libcurl info message cache 1 (TCP_NODELAY set)
+[2020.08.15-05.43.24:490][937]LogHttp: Warning: 000001FB30871940: libcurl info message cache 2 (Connected to 127.0.0.1 (127.0.0.1) port 50114 (#21))
+[2020.08.15-05.43.24:490][937]LogHttp: Warning: 000001FB30871940: libcurl info message cache 3 (allocate connect buffer!)
+[2020.08.15-05.43.24:490][937]LogHttp: Warning: 000001FB30871940: libcurl info message cache 4 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2020.08.15-05.43.24:490][937]LogHttp: Warning: 000001FB30871940: libcurl info message cache 5 (Ignoring Content-Length in CONNECT 200 response)
+[2020.08.15-05.43.24:490][937]LogHttp: Warning: 000001FB30871940: libcurl info message cache 6 (Proxy replied OK to CONNECT request)
+[2020.08.15-05.43.24:490][937]LogHttp: Warning: 000001FB30871940: libcurl info message cache 7 (CONNECT phase completed!)
+[2020.08.15-05.43.24:490][937]LogHttp: Warning: 000001FB30871940: libcurl info message cache 8 (ALPN, offering http/1.1)
+[2020.08.15-05.43.24:490][937]LogHttp: Warning: 000001FB30871940: libcurl info message cache 9 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2020.08.15-05.43.24:490][937]LogHttp: Warning: 000001FB30871940: libcurl info message cache 10 (SSL re-using session ID)
+[2020.08.15-05.43.24:490][937]LogHttp: Warning: 000001FB30871940: libcurl info message cache 11 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2020.08.15-05.43.24:490][937]LogHttp: Warning: 000001FB30871940: libcurl info message cache 12 (CONNECT phase completed!)
+[2020.08.15-05.43.24:490][937]LogHttp: Warning: 000001FB30871940: libcurl info message cache 13 (CONNECT phase completed!)
+[2020.08.15-05.43.24:490][937]LogHttp: Warning: 000001FB30871940: libcurl info message cache 14 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2020.08.15-05.43.24:490][937]LogHttp: Warning: 000001FB30871940: libcurl info message cache 15 (Closing connection 21)
+[2020.08.15-05.43.24:823][938]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.08.15-05.46.47:726][543]LogHttp: Warning: 000001FB30871940: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.08.15-05.46.47:726][543]LogHttp: Warning: 000001FB30871940: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.08.15-05.46.47:726][543]LogHttp: Warning: 000001FB30871940: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1fa74b97f70 [can pipeline])
+[2020.08.15-05.46.47:726][543]LogHttp: Warning: 000001FB30871940: libcurl info message cache 1 (Re-using existing connection! (#22) with proxy 127.0.0.1)
+[2020.08.15-05.46.47:726][543]LogHttp: Warning: 000001FB30871940: libcurl info message cache 2 (Connected to 127.0.0.1 (127.0.0.1) port 50114 (#22))
+[2020.08.15-05.46.47:726][543]LogHttp: Warning: 000001FB30871940: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.08.15-05.46.47:726][543]LogHttp: Warning: 000001FB30871940: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10053)
+[2020.08.15-05.46.47:726][543]LogHttp: Warning: 000001FB30871940: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.08.15-05.46.47:726][543]LogHttp: Warning: 000001FB30871940: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.08.15-05.46.47:726][543]LogHttp: Warning: 000001FB30871940: libcurl info message cache 7 (Closing connection 22)
+[2020.08.15-05.46.48:060][544]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.08.15-05.47.09:289][ 39]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\google download\CGJModer\cabinet.fbx)
+[2020.08.15-05.47.09:315][ 39]LogFbx: Loading FBX Scene from H:\google download\CGJModer\cabinet.fbx
+[2020.08.15-05.47.09:373][ 39]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.15-05.47.12:916][ 39]LogSlate: Window 'FBX导入选项' being destroyed
+[2020.08.15-05.47.12:964][ 39]LogLinker: 未能加载“{FileName}”：无法找到文件。
+[2020.08.15-05.47.12:965][ 39]LogLinker: 未能加载“{FileName}”：无法找到文件。
+[2020.08.15-05.47.12:965][ 39]LogFbxMaterialImport: Warning: Unable to find Texture file H:\google download\archive\Cherry_ancient.JPG
+[2020.08.15-05.47.12:965][ 39]LogFbxMaterialImport: Warning: Unable to find Texture file H:\google download\archive\Cherry_ancient.JPG
+[2020.08.15-05.47.12:972][ 39]LogMaterial: Display: Missing cached shader map for material Cherry_ancient_1, compiling. 
+[2020.08.15-05.47.12:998][ 39]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.08.15-05.47.12:998][ 39]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.08.15-05.47.12:998][ 39]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.08.15-05.47.12:998][ 39]LogFbxMaterialImport: Warning: Unable to find Texture file H:\google download\archive\Cherry_ancient.JPG
+[2020.08.15-05.47.12:998][ 39]LogFbxMaterialImport: Warning: Unable to find Texture file H:\google download\archive\Cherry_ancient.JPG
+[2020.08.15-05.47.13:004][ 39]LogMaterial: Display: Missing cached shader map for material Cherry_ancient_2, compiling. 
+[2020.08.15-05.47.13:028][ 39]LogMaterial: Display: Missing cached shader map for material Gold_Matte, compiling. 
+[2020.08.15-05.47.13:042][ 39]LogFbx: Display: Triangulating static mesh Front_frame.002
+[2020.08.15-05.47.18:314][ 39]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 30
+[2020.08.15-05.47.18:314][ 39]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2020.08.15-05.47.18:314][ 39]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2020.08.15-05.47.18:314][ 39]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.08.15-05.47.18:319][ 39]LogStaticMesh: 正在构建静态网格体cabinet……
+[2020.08.15-05.47.19:622][ 39]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2020.08.15-05.47.19:622][ 39]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.08.15-05.47.19:622][ 39]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.08.15-05.47.19:622][ 39]LogStaticMesh: Built static mesh [1.30s] /Game/Huang/cabinet.cabinet
+[2020.08.15-05.47.24:830][304]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Huang/cabinet.cabinet
+[2020.08.15-05.47.31:368][657]LogSlate: Window 'cabinet' being destroyed
+[2020.08.15-05.47.31:384][657]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-05.47.31:384][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-05.47.35:358][870]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Huang/cabinet.cabinet
+[2020.08.15-05.47.42:034][245]LogSlate: Window 'cabinet' being destroyed
+[2020.08.15-05.47.42:047][245]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-05.47.42:047][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-05.49.19:789][  9]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2020.08.15-05.49.19:813][  9]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/DemoMap' took 0.080
+[2020.08.15-05.49.19:814][  9]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Huang/chair] ([1] browsable assets)...
+[2020.08.15-05.49.19:830][  9]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Huang/chair.chair]
+[2020.08.15-05.49.19:830][  9]OBJ SavePackage: Finished generating thumbnails for package [/Game/Huang/chair]
+[2020.08.15-05.49.19:830][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/chair" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/chair_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2020.08.15-05.49.19:875][  9]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/chair_Auto3F0CA99DB430CF92EE6D6D4BC9F2074E5.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/chair_Auto3.uasset'
+[2020.08.15-05.49.19:876][  9]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Huang/淡亚光板] ([1] browsable assets)...
+[2020.08.15-05.49.19:892][  9]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Huang/淡亚光板.淡亚光板]
+[2020.08.15-05.49.19:893][  9]OBJ SavePackage: Finished generating thumbnails for package [/Game/Huang/淡亚光板]
+[2020.08.15-05.49.19:893][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/淡亚光板" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/淡亚光板_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2020.08.15-05.49.19:904][  9]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/淡亚光板_Auto352985A904928C5468F0193A03F2A3541.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/淡亚光板_Auto3.uasset'
+[2020.08.15-05.49.19:905][  9]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Huang/Gold_Matte] ([1] browsable assets)...
+[2020.08.15-05.49.19:917][  9]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Huang/Gold_Matte.Gold_Matte]
+[2020.08.15-05.49.19:917][  9]OBJ SavePackage: Finished generating thumbnails for package [/Game/Huang/Gold_Matte]
+[2020.08.15-05.49.19:917][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/Gold_Matte" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/Gold_Matte_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2020.08.15-05.49.19:931][  9]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Gold_Matte_Auto35176B08B478D06D361F079A0A8A9DD8A.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/Gold_Matte_Auto3.uasset'
+[2020.08.15-05.49.19:935][  9]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Huang/cabinet] ([1] browsable assets)...
+[2020.08.15-05.49.19:949][  9]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Huang/cabinet.cabinet]
+[2020.08.15-05.49.19:949][  9]OBJ SavePackage: Finished generating thumbnails for package [/Game/Huang/cabinet]
+[2020.08.15-05.49.19:949][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/cabinet" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/cabinet_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2020.08.15-05.49.20:193][  9]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/cabinet_Auto35A23C7BF4B947C311A773FB9C98D4310.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/cabinet_Auto3.uasset'
+[2020.08.15-05.49.20:194][  9]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Huang/Cherry_ancient_1] ([1] browsable assets)...
+[2020.08.15-05.49.20:215][  9]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Huang/Cherry_ancient_1.Cherry_ancient_1]
+[2020.08.15-05.49.20:215][  9]OBJ SavePackage: Finished generating thumbnails for package [/Game/Huang/Cherry_ancient_1]
+[2020.08.15-05.49.20:215][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/Cherry_ancient_1" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/Cherry_ancient_1_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2020.08.15-05.49.20:225][  9]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Cherry_ancient_1_Auto331D2AFEC42BAC6F567DF5685C3419036.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/Cherry_ancient_1_Auto3.uasset'
+[2020.08.15-05.49.20:228][  9]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Huang/Cherry_ancient_2] ([1] browsable assets)...
+[2020.08.15-05.49.20:240][  9]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Huang/Cherry_ancient_2.Cherry_ancient_2]
+[2020.08.15-05.49.20:240][  9]OBJ SavePackage: Finished generating thumbnails for package [/Game/Huang/Cherry_ancient_2]
+[2020.08.15-05.49.20:240][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/Cherry_ancient_2" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/Cherry_ancient_2_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2020.08.15-05.49.20:253][  9]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Cherry_ancient_2_Auto398796E2D43ACC74792E616B253735F66.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/Cherry_ancient_2_Auto3.uasset'
+[2020.08.15-05.49.20:254][  9]LogFileHelpers: Auto-saving content packages took 0.441
