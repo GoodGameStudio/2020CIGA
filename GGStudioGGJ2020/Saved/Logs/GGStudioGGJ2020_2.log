@@ -14333,3 +14333,5 @@ Script Stack (0 frames):
 [2020.08.15-08.51.20:799][119]AssetCheck: New page: 资源保存：多个资源
 [2020.08.15-08.51.20:799][119]LogContentValidation: Display: 正在验证Texture2D /Game/Sean/tag/stuff_06.stuff_06
 [2020.08.15-08.51.20:799][119]LogContentValidation: Display: 正在验证World /Game/Sean/TrombeDemoMap.TrombeDemoMap
+[2020.08.15-09.04.27:175][802]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Sean/tag/tag.tag
+[2020.08.15-09.04.41:558][448]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
