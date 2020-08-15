@@ -1,0 +1,40 @@
+{ "skeleton": { "images": "C:/Users/Administrator/Desktop/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "hair", "bone": "root", "attachment": "hair" },
+	{ "name": "hand2", "bone": "root", "attachment": "hand2" },
+	{ "name": "foot1", "bone": "root", "attachment": "foot1" },
+	{ "name": "foot2", "bone": "root", "attachment": "foot2" },
+	{ "name": "body", "bone": "root", "attachment": "body" },
+	{ "name": "face", "bone": "root", "attachment": "face" },
+	{ "name": "hand1", "bone": "root", "attachment": "hand1" }
+],
+"skins": {
+	"default": {
+		"hair": {
+			"hair": { "x": 72.5, "y": -85, "width": 91, "height": 92 }
+		},
+		"hand2": {
+			"hand2": { "x": 90, "y": -112.5, "width": 20, "height": 33 }
+		},
+		"foot1": {
+			"foot1": { "x": 67.5, "y": -142.5, "width": 17, "height": 35 }
+		},
+		"foot2": {
+			"foot2": { "x": 83.5, "y": -142.5, "width": 17, "height": 35 }
+		},
+		"body": {
+			"body": { "x": 72.5, "y": -109.5, "width": 57, "height": 59 }
+		},
+		"face": {
+			"face": { "x": 76, "y": -82, "width": 48, "height": 24 }
+		},
+		"hand1": {
+			"hand1": { "x": 63.5, "y": -112.5, "width": 17, "height": 33 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

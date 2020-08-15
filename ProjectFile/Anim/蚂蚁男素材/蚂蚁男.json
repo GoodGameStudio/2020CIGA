@@ -1,0 +1,48 @@
+{ "skeleton": { "images": "C:/Users/Administrator/Desktop/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "ant_head", "bone": "root", "attachment": "ant_head" },
+	{ "name": "ant_xiong", "bone": "root", "attachment": "ant_xiong" },
+	{ "name": "ant_pigu", "bone": "root", "attachment": "ant_pigu" },
+	{ "name": "chujiao1", "bone": "root", "attachment": "chujiao1" },
+	{ "name": "chujiao2", "bone": "root", "attachment": "chujiao2" },
+	{ "name": "ant_foot1", "bone": "root", "attachment": "ant_foot1" },
+	{ "name": "ant_foot2", "bone": "root", "attachment": "ant_foot2" },
+	{ "name": "ant_hand1", "bone": "root", "attachment": "ant_hand1" },
+	{ "name": "ant_hand2", "bone": "root", "attachment": "ant_hand2" }
+],
+"skins": {
+	"default": {
+		"ant_head": {
+			"ant_head": { "x": 71, "y": -88.5, "width": 64, "height": 49 }
+		},
+		"ant_xiong": {
+			"ant_xiong": { "x": 78.5, "y": -112, "width": 27, "height": 26 }
+		},
+		"ant_pigu": {
+			"ant_pigu": { "x": 83.5, "y": -136, "width": 47, "height": 42 }
+		},
+		"chujiao1": {
+			"chujiao1": { "x": 58, "y": -58, "width": 26, "height": 32 }
+		},
+		"chujiao2": {
+			"chujiao2": { "x": 67, "y": -54.5, "width": 20, "height": 37 }
+		},
+		"ant_foot1": {
+			"ant_foot1": { "x": 79, "y": -156.5, "width": 8, "height": 25 }
+		},
+		"ant_foot2": {
+			"ant_foot2": { "x": 92, "y": -156.5, "width": 8, "height": 25 }
+		},
+		"ant_hand1": {
+			"ant_hand1": { "x": 64, "y": -125, "width": 14, "height": 34 }
+		},
+		"ant_hand2": {
+			"ant_hand2": { "x": 100.5, "y": -118.5, "width": 25, "height": 29 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}
