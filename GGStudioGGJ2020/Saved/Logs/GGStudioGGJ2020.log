@@ -2157,3 +2157,235 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.08.15-07.48.30:340][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2020.08.15-07.48.31:629][ 47]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
 [2020.08.15-07.48.31:629][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-07.55.45:219][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/Box/box" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Box/box.uasset" SILENT=true
+[2020.08.15-07.55.45:238][521]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/box1E3D640E43FA766B61E1968237879A44.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Box/box.uasset'
+[2020.08.15-07.55.45:523][521]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2020.08.15-07.55.45:592][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.08.15-07.55.45:621][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.08.15-07.55.45:648][521]AssetCheck: New page: 资源保存：box
+[2020.08.15-07.55.45:648][521]LogContentValidation: Display: 正在验证StaticMesh /Game/Huang/Box/box.box
+[2020.08.15-07.56.24:171][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/Cabinet/cabinet" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Cabinet/cabinet.uasset" SILENT=true
+[2020.08.15-07.56.24:414][786]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/cabinetDA06546D4392E69EA7791599DFD6F305.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Cabinet/cabinet.uasset'
+[2020.08.15-07.56.24:426][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/Cabinet/Cherry_ancient_1" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Cabinet/Cherry_ancient_1.uasset" SILENT=true
+[2020.08.15-07.56.24:438][786]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Cherry_ancient_16BCECFA346077EB089B879A818D31CB6.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Cabinet/Cherry_ancient_1.uasset'
+[2020.08.15-07.56.24:450][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/Cabinet/Cherry_ancient_2" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Cabinet/Cherry_ancient_2.uasset" SILENT=true
+[2020.08.15-07.56.24:460][786]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Cherry_ancient_2B594C73449A0E58EBF71CB9823CDD4FA.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Cabinet/Cherry_ancient_2.uasset'
+[2020.08.15-07.56.24:472][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/Cabinet/Gold_Matte" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Cabinet/Gold_Matte.uasset" SILENT=true
+[2020.08.15-07.56.24:483][786]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Gold_Matte8FED00CC418F2EF503D3BB8589C69FBF.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Cabinet/Gold_Matte.uasset'
+[2020.08.15-07.56.24:815][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.08.15-07.56.24:848][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.08.15-07.56.24:877][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.08.15-07.56.24:906][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.08.15-07.56.24:945][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.08.15-07.56.24:973][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.08.15-07.56.25:006][786]AssetCheck: New page: 资源保存：多个资源
+[2020.08.15-07.56.25:006][786]LogContentValidation: Display: 正在验证StaticMesh /Game/Huang/Cabinet/cabinet.cabinet
+[2020.08.15-07.56.25:006][786]LogContentValidation: Display: 正在验证Material /Game/Huang/Cabinet/Cherry_ancient_1.Cherry_ancient_1
+[2020.08.15-07.56.25:006][786]LogContentValidation: Display: 正在验证Material /Game/Huang/Cabinet/Cherry_ancient_2.Cherry_ancient_2
+[2020.08.15-07.56.25:006][786]LogContentValidation: Display: 正在验证Material /Game/Huang/Cabinet/Gold_Matte.Gold_Matte
+[2020.08.15-07.56.41:231][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/Chair/chair" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Chair/chair.uasset" SILENT=true
+[2020.08.15-07.56.41:285][729]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/chair1CF2E7B942724004B19FEAA0FD273F74.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Chair/chair.uasset'
+[2020.08.15-07.56.41:299][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/Chair/淡亚光板" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Chair/淡亚光板.uasset" SILENT=true
+[2020.08.15-07.56.41:312][729]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/淡亚光板D84A31234DD7BB5160BA6B8DE2F0C142.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Chair/淡亚光板.uasset'
+[2020.08.15-07.56.41:566][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.08.15-07.56.41:602][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.08.15-07.56.41:652][729]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.08.15-07.56.41:688][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.08.15-07.56.41:722][729]AssetCheck: New page: 资源保存：多个资源
+[2020.08.15-07.56.41:722][729]LogContentValidation: Display: 正在验证StaticMesh /Game/Huang/Chair/chair.chair
+[2020.08.15-07.56.41:722][729]LogContentValidation: Display: 正在验证Material /Game/Huang/Chair/淡亚光板.淡亚光板
+[2020.08.15-07.56.53:992][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/PhotoFrame/M_box" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/PhotoFrame/M_box.uasset" SILENT=true
+[2020.08.15-07.56.54:008][414]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/M_boxF083B4DB447B604679CB489413CE1CCB.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/PhotoFrame/M_box.uasset'
+[2020.08.15-07.56.54:020][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/PhotoFrame/M_Frame" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/PhotoFrame/M_Frame.uasset" SILENT=true
+[2020.08.15-07.56.54:035][414]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/M_FrameA99642A14424D329A765128DBC50A5C0.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/PhotoFrame/M_Frame.uasset'
+[2020.08.15-07.56.54:048][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/PhotoFrame/M_Framephoto" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/PhotoFrame/M_Framephoto.uasset" SILENT=true
+[2020.08.15-07.56.54:065][414]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/M_FramephotoCA09C72C4078A3F8FF266BA03AAE6738.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/PhotoFrame/M_Framephoto.uasset'
+[2020.08.15-07.56.54:073][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/PhotoFrame/photo" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/PhotoFrame/photo.uasset" SILENT=true
+[2020.08.15-07.56.54:091][414]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/photoEADA4766484F139EAC756F94C66CFAD6.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/PhotoFrame/photo.uasset'
+[2020.08.15-07.56.54:103][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/PhotoFrame/PhotoFrame" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/PhotoFrame/PhotoFrame.uasset" SILENT=true
+[2020.08.15-07.56.54:118][414]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/PhotoFrame2566D3DF4A9C81401062639A1D86DCF5.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/PhotoFrame/PhotoFrame.uasset'
+[2020.08.15-07.56.54:561][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.08.15-07.56.54:599][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.08.15-07.56.54:634][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.08.15-07.56.54:669][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.08.15-07.56.54:704][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.08.15-07.56.54:753][414]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.08.15-07.56.54:789][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.08.15-07.56.54:829][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/Box/box" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Box/box.uasset" SILENT=true
+[2020.08.15-07.56.54:840][414]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/boxC152CCC5417504A1E1E0908CB412DCCD.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Box/box.uasset'
+[2020.08.15-07.56.54:897][414]AssetCheck: New page: 资源保存：多个资源
+[2020.08.15-07.56.54:897][414]LogContentValidation: Display: 正在验证Material /Game/Huang/PhotoFrame/M_box.M_box
+[2020.08.15-07.56.54:897][414]LogContentValidation: Display: 正在验证Material /Game/Huang/PhotoFrame/M_Frame.M_Frame
+[2020.08.15-07.56.54:897][414]LogContentValidation: Display: 正在验证Material /Game/Huang/PhotoFrame/M_Framephoto.M_Framephoto
+[2020.08.15-07.56.54:897][414]LogContentValidation: Display: 正在验证Texture2D /Game/Huang/PhotoFrame/photo.photo
+[2020.08.15-07.56.54:897][414]LogContentValidation: Display: 正在验证StaticMesh /Game/Huang/PhotoFrame/PhotoFrame.PhotoFrame
+[2020.08.15-07.56.54:897][414]LogContentValidation: Display: 正在验证StaticMesh /Game/Huang/Box/box.box
+[2020.08.15-07.57.13:881][529]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\google download\CGJModer\LongLegAnt.fbx)
+[2020.08.15-07.57.13:910][529]LogFbx: Loading FBX Scene from H:\google download\CGJModer\LongLegAnt.fbx
+[2020.08.15-07.57.13:950][529]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.15-07.57.16:362][529]LogSlate: Window 'FBX导入选项' being destroyed
+[2020.08.15-07.57.16:404][529]LogMaterial: Display: Missing cached shader map for material Material__1, compiling. 
+[2020.08.15-07.57.16:422][529]LogFbx: Display: Triangulating static mesh Line03
+[2020.08.15-07.57.17:714][529]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.08.15-07.57.17:714][529]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.08.15-07.57.17:714][529]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.08.15-07.57.17:721][529]LogStaticMesh: 正在构建静态网格体LongLegAnt……
+[2020.08.15-07.57.18:792][529]LogStaticMesh: Built static mesh [1.07s] /Game/Huang/LongLegAnt/LongLegAnt.LongLegAnt
+[2020.08.15-07.57.19:053][529]LogStaticMesh: Warning: LongLegAnt 拥有一些近零的切线，其可能诱发问题。（容差为 1E-4）
+[2020.08.15-07.57.19:053][529]LogStaticMesh: Warning: LongLegAnt 拥有一些近零的副法线，其可能诱发问题。（容差为 1E-4）
+[2020.08.15-07.57.19:235][529]FBXImport: Warning: LongLegAnt 拥有一些近零的切线，其可能诱发问题。（容差为 1E-4） 
+[2020.08.15-07.57.19:235][529]FBXImport: Warning: LongLegAnt 拥有一些近零的副法线，其可能诱发问题。（容差为 1E-4） 
+[2020.08.15-07.57.33:670][366]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Huang/LongLegAnt/LongLegAnt.LongLegAnt
+[2020.08.15-07.57.40:704][747]LogSlate: Window 'LongLegAnt' being destroyed
+[2020.08.15-07.57.40:720][747]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-07.57.40:720][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-07.57.43:845][907]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.08.15-07.57.44:820][907]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.15-07.57.44:996][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.08.15-07.58.14:283][118]LogHttp: Warning: 000001FB91BCF100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.08.15-07.58.14:284][118]LogHttp: Warning: 000001FB91BCF100: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.08.15-07.58.14:284][118]LogHttp: Warning: 000001FB91BCF100: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1fa74b97f70 [can pipeline])
+[2020.08.15-07.58.14:284][118]LogHttp: Warning: 000001FB91BCF100: libcurl info message cache 1 (Re-using existing connection! (#75) with proxy 127.0.0.1)
+[2020.08.15-07.58.14:284][118]LogHttp: Warning: 000001FB91BCF100: libcurl info message cache 2 (Connected to 127.0.0.1 (127.0.0.1) port 50114 (#75))
+[2020.08.15-07.58.14:284][118]LogHttp: Warning: 000001FB91BCF100: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.08.15-07.58.14:284][118]LogHttp: Warning: 000001FB91BCF100: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.08.15-07.58.14:284][118]LogHttp: Warning: 000001FB91BCF100: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.08.15-07.58.14:284][118]LogHttp: Warning: 000001FB91BCF100: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.08.15-07.58.14:284][118]LogHttp: Warning: 000001FB91BCF100: libcurl info message cache 7 (Closing connection 75)
+[2020.08.15-07.58.14:284][118]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.08.15-08.01.47:926][756]LogHttp: Warning: 000001FB91BCF100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.08.15-08.01.47:926][756]LogHttp: Warning: 000001FB91BCF100: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.08.15-08.01.47:926][756]LogHttp: Warning: 000001FB91BCF100: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1fa74b97f70 [can pipeline])
+[2020.08.15-08.01.47:926][756]LogHttp: Warning: 000001FB91BCF100: libcurl info message cache 1 (Re-using existing connection! (#76) with proxy 127.0.0.1)
+[2020.08.15-08.01.47:926][756]LogHttp: Warning: 000001FB91BCF100: libcurl info message cache 2 (Connected to 127.0.0.1 (127.0.0.1) port 50114 (#76))
+[2020.08.15-08.01.47:926][756]LogHttp: Warning: 000001FB91BCF100: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.08.15-08.01.47:926][756]LogHttp: Warning: 000001FB91BCF100: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.08.15-08.01.47:926][756]LogHttp: Warning: 000001FB91BCF100: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.08.15-08.01.47:926][756]LogHttp: Warning: 000001FB91BCF100: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.08.15-08.01.47:926][756]LogHttp: Warning: 000001FB91BCF100: libcurl info message cache 7 (Closing connection 76)
+[2020.08.15-08.01.47:926][756]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.08.15-08.03.03:209][127]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 H:\google download\CGJModer\LongLegAnt.fbx)
+[2020.08.15-08.03.03:228][127]LogFbx: Loading FBX Scene from H:\google download\CGJModer\LongLegAnt.fbx
+[2020.08.15-08.03.03:258][127]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.15-08.03.07:056][127]LogSlate: Window 'FBX导入选项' being destroyed
+[2020.08.15-08.03.07:095][127]LogMaterial: Display: Missing cached shader map for material Material__1, compiling. 
+[2020.08.15-08.03.07:108][127]LogFbx: Display: Triangulating static mesh Line01
+[2020.08.15-08.03.07:693][127]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.08.15-08.03.07:693][127]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.08.15-08.03.07:693][127]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.08.15-08.03.07:697][127]LogStaticMesh: 正在构建静态网格体LongLegAnt……
+[2020.08.15-08.03.08:542][127]LogStaticMesh: Built static mesh [0.85s] /Game/Huang/LongLegAnt/LongLegAnt.LongLegAnt
+[2020.08.15-08.03.34:021][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/LongLegAnt/M_LongLegAnt" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/LongLegAnt/M_LongLegAnt.uasset" SILENT=true
+[2020.08.15-08.03.34:033][591]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/M_LongLegAntEDB106E54A0E6F60D733ECB3AA988457.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/LongLegAnt/M_LongLegAnt.uasset'
+[2020.08.15-08.03.34:221][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.08.15-08.03.34:268][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.08.15-08.03.34:297][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.08.15-08.03.34:321][591]AssetCheck: New page: 资源保存：M_LongLegAnt
+[2020.08.15-08.03.34:321][591]LogContentValidation: Display: 正在验证Material /Game/Huang/LongLegAnt/M_LongLegAnt.M_LongLegAnt
+[2020.08.15-08.03.44:656][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/Ant/M_LongLegAnt" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Ant/M_LongLegAnt.uasset" SILENT=true
+[2020.08.15-08.03.44:668][192]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/M_LongLegAntF881E43743A6B02E17EEDF9C040DAF8A.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Ant/M_LongLegAnt.uasset'
+[2020.08.15-08.03.44:679][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/Ant/LongLegAnt" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Ant/LongLegAnt.uasset" SILENT=true
+[2020.08.15-08.03.44:776][192]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/LongLegAnt67C812F54762EA8892315CB2B748EDD6.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Ant/LongLegAnt.uasset'
+[2020.08.15-08.03.44:996][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.08.15-08.03.45:027][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.08.15-08.03.45:067][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.08.15-08.03.45:096][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.08.15-08.03.45:132][192]AssetCheck: New page: 资源保存：多个资源
+[2020.08.15-08.03.45:132][192]LogContentValidation: Display: 正在验证Material /Game/Huang/Ant/M_LongLegAnt.M_LongLegAnt
+[2020.08.15-08.03.45:132][192]LogContentValidation: Display: 正在验证StaticMesh /Game/Huang/Ant/LongLegAnt.LongLegAnt
+[2020.08.15-08.04.41:823][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\google download\CGJModer\GameJam材料\GameJam材料\stuff_06.png)
+[2020.08.15-08.04.42:182][532]LogTexture: Display: 正在编译纹理：stuff_06（BGRA8、432X129）
+[2020.08.15-08.04.42:199][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\google download\CGJModer\GameJam材料\GameJam材料\women.png)
+[2020.08.15-08.04.42:204][532]LogTexture: Display: 正在编译纹理：women（BGRA8、83X119）
+[2020.08.15-08.04.42:212][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\google download\CGJModer\GameJam材料\GameJam材料\ant_men.png)
+[2020.08.15-08.04.42:218][532]LogTexture: Display: 正在编译纹理：ant_men（BGRA8、65X141）
+[2020.08.15-08.04.42:224][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\google download\CGJModer\GameJam材料\GameJam材料\ant_women.png)
+[2020.08.15-08.04.42:231][532]LogTexture: Display: 正在编译纹理：ant_women（BGRA8、62X130）
+[2020.08.15-08.04.42:238][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\google download\CGJModer\GameJam材料\GameJam材料\door_1.png)
+[2020.08.15-08.04.42:245][532]LogTexture: Display: 正在编译纹理：door_1（BGRA8、113X112）
+[2020.08.15-08.04.42:252][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\google download\CGJModer\GameJam材料\GameJam材料\door_2.png)
+[2020.08.15-08.04.42:258][532]LogTexture: Display: 正在编译纹理：door_2（BGRA8、113X112）
+[2020.08.15-08.04.42:265][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\google download\CGJModer\GameJam材料\GameJam材料\Game Jam预览.jpg)
+[2020.08.15-08.04.42:301][532]LogTexture: Display: 正在编译纹理：Game_Jam预览（AutoDXT、1920X1080）
+[2020.08.15-08.04.42:527][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\google download\CGJModer\GameJam材料\GameJam材料\ground_1.png)
+[2020.08.15-08.04.42:538][532]LogTexture: Display: 正在编译纹理：ground_1（BGRA8、1920X194）
+[2020.08.15-08.04.42:560][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\google download\CGJModer\GameJam材料\GameJam材料\ground_2.png)
+[2020.08.15-08.04.42:567][532]LogTexture: Display: 正在编译纹理：ground_2（BGRA8、187X619）
+[2020.08.15-08.04.42:577][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\google download\CGJModer\GameJam材料\GameJam材料\ground_3.png)
+[2020.08.15-08.04.42:584][532]LogTexture: Display: 正在编译纹理：ground_3（AutoDXT、188X188）
+[2020.08.15-08.04.42:595][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\google download\CGJModer\GameJam材料\GameJam材料\men.png)
+[2020.08.15-08.04.42:601][532]LogTexture: Display: 正在编译纹理：men（BGRA8、57X124）
+[2020.08.15-08.04.42:608][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\google download\CGJModer\GameJam材料\GameJam材料\stuff_01.png)
+[2020.08.15-08.04.42:614][532]LogTexture: Display: 正在编译纹理：stuff_01（BGRA8、114X72）
+[2020.08.15-08.04.42:621][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\google download\CGJModer\GameJam材料\GameJam材料\stuff_02.png)
+[2020.08.15-08.04.42:628][532]LogTexture: Display: 正在编译纹理：stuff_02（BGRA8、107X102）
+[2020.08.15-08.04.42:635][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\google download\CGJModer\GameJam材料\GameJam材料\stuff_03.png)
+[2020.08.15-08.04.42:641][532]LogTexture: Display: 正在编译纹理：stuff_03（BGRA8、80X122）
+[2020.08.15-08.04.42:647][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\google download\CGJModer\GameJam材料\GameJam材料\stuff_04.png)
+[2020.08.15-08.04.42:653][532]LogTexture: Display: 正在编译纹理：stuff_04（BGRA8、80X122）
+[2020.08.15-08.04.42:660][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 H:\google download\CGJModer\GameJam材料\GameJam材料\stuff_05.png)
+[2020.08.15-08.04.42:666][532]LogTexture: Display: 正在编译纹理：stuff_05（BGRA8、80X122）
+[2020.08.15-08.04.45:672][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/ArtResource/stuff_05" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/stuff_05.uasset" SILENT=true
+[2020.08.15-08.04.45:677][702]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/stuff_0533C6D182490DD74A2EB4B09E2DB741E3.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/stuff_05.uasset'
+[2020.08.15-08.04.45:680][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/ArtResource/stuff_04" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/stuff_04.uasset" SILENT=true
+[2020.08.15-08.04.45:683][702]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/stuff_04350E921F4EEC120258258D9EC36A422F.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/stuff_04.uasset'
+[2020.08.15-08.04.45:686][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/ArtResource/stuff_03" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/stuff_03.uasset" SILENT=true
+[2020.08.15-08.04.45:692][702]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/stuff_03B511D1444FBB0A883FFBF78835C419FE.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/stuff_03.uasset'
+[2020.08.15-08.04.45:695][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/ArtResource/stuff_02" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/stuff_02.uasset" SILENT=true
+[2020.08.15-08.04.45:698][702]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/stuff_028C8E340C40FA8E11F679C7B70B7EE1E9.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/stuff_02.uasset'
+[2020.08.15-08.04.45:701][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/ArtResource/stuff_01" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/stuff_01.uasset" SILENT=true
+[2020.08.15-08.04.45:704][702]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/stuff_0139BA6D964348DC5017FFBC8C56D8C15E.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/stuff_01.uasset'
+[2020.08.15-08.04.45:707][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/ArtResource/men" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/men.uasset" SILENT=true
+[2020.08.15-08.04.45:710][702]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/men979DA2544BF8C7DE721D54B0F74FAFC9.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/men.uasset'
+[2020.08.15-08.04.45:716][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/ArtResource/ground_3" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/ground_3.uasset" SILENT=true
+[2020.08.15-08.04.45:721][702]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/ground_309B21744496E76D85F7452B297B9BADF.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/ground_3.uasset'
+[2020.08.15-08.04.45:725][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/ArtResource/ground_2" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/ground_2.uasset" SILENT=true
+[2020.08.15-08.04.45:733][702]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/ground_2BFC7805A489A4BECA760E4AFE9491565.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/ground_2.uasset'
+[2020.08.15-08.04.45:736][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/ArtResource/ground_1" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/ground_1.uasset" SILENT=true
+[2020.08.15-08.04.45:752][702]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/ground_10D93C43B4BE0B2536273D9BD441C344B.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/ground_1.uasset'
+[2020.08.15-08.04.45:757][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/ArtResource/Game_Jam预览" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/Game_Jam预览.uasset" SILENT=true
+[2020.08.15-08.04.45:844][702]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Game_Jam预览5F0FB2484D5D6F290155B2839A2AC948.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/Game_Jam预览.uasset'
+[2020.08.15-08.04.45:848][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/ArtResource/door_2" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/door_2.uasset" SILENT=true
+[2020.08.15-08.04.45:852][702]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/door_2616FC7EA423887176DFE9089181CD6EB.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/door_2.uasset'
+[2020.08.15-08.04.45:855][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/ArtResource/door_1" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/door_1.uasset" SILENT=true
+[2020.08.15-08.04.45:858][702]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/door_18BFBD8C744C30F84865EDBAAF4DE64EF.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/door_1.uasset'
+[2020.08.15-08.04.45:861][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/ArtResource/ant_women" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/ant_women.uasset" SILENT=true
+[2020.08.15-08.04.45:865][702]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/ant_women1B17B5A84BF2E4508174709987B6B506.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/ant_women.uasset'
+[2020.08.15-08.04.45:867][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/ArtResource/ant_men" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/ant_men.uasset" SILENT=true
+[2020.08.15-08.04.45:875][702]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/ant_men7FA3C24F4E8A2CB936F7DAAC8053F093.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/ant_men.uasset'
+[2020.08.15-08.04.45:878][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/ArtResource/women" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/women.uasset" SILENT=true
+[2020.08.15-08.04.45:881][702]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/women46C1B4764C8DCB5257786682DD3E19F4.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/women.uasset'
+[2020.08.15-08.04.45:885][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/ArtResource/stuff_06" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/stuff_06.uasset" SILENT=true
+[2020.08.15-08.04.45:891][702]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/stuff_06A9ED9BDC4C583DAE99F60393DE1C09F5.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/ArtResource/stuff_06.uasset'
+[2020.08.15-08.04.45:956][702]AssetCheck: New page: 资源保存：多个资源
+[2020.08.15-08.04.45:956][702]LogContentValidation: Display: 正在验证Texture2D /Game/Huang/ArtResource/stuff_05.stuff_05
+[2020.08.15-08.04.45:956][702]LogContentValidation: Display: 正在验证Texture2D /Game/Huang/ArtResource/stuff_04.stuff_04
+[2020.08.15-08.04.45:956][702]LogContentValidation: Display: 正在验证Texture2D /Game/Huang/ArtResource/stuff_03.stuff_03
+[2020.08.15-08.04.45:957][702]LogContentValidation: Display: 正在验证Texture2D /Game/Huang/ArtResource/stuff_02.stuff_02
+[2020.08.15-08.04.45:957][702]LogContentValidation: Display: 正在验证Texture2D /Game/Huang/ArtResource/stuff_01.stuff_01
+[2020.08.15-08.04.45:957][702]LogContentValidation: Display: 正在验证Texture2D /Game/Huang/ArtResource/men.men
+[2020.08.15-08.04.45:957][702]LogContentValidation: Display: 正在验证Texture2D /Game/Huang/ArtResource/ground_3.ground_3
+[2020.08.15-08.04.45:957][702]LogContentValidation: Display: 正在验证Texture2D /Game/Huang/ArtResource/ground_2.ground_2
+[2020.08.15-08.04.45:957][702]LogContentValidation: Display: 正在验证Texture2D /Game/Huang/ArtResource/ground_1.ground_1
+[2020.08.15-08.04.45:957][702]LogContentValidation: Display: 正在验证Texture2D /Game/Huang/ArtResource/Game_Jam预览.Game_Jam预览
+[2020.08.15-08.04.45:957][702]LogContentValidation: Display: 正在验证Texture2D /Game/Huang/ArtResource/door_2.door_2
+[2020.08.15-08.04.45:957][702]LogContentValidation: Display: 正在验证Texture2D /Game/Huang/ArtResource/door_1.door_1
+[2020.08.15-08.04.45:957][702]LogContentValidation: Display: 正在验证Texture2D /Game/Huang/ArtResource/ant_women.ant_women
+[2020.08.15-08.04.45:957][702]LogContentValidation: Display: 正在验证Texture2D /Game/Huang/ArtResource/ant_men.ant_men
+[2020.08.15-08.04.45:957][702]LogContentValidation: Display: 正在验证Texture2D /Game/Huang/ArtResource/women.women
+[2020.08.15-08.04.45:957][702]LogContentValidation: Display: 正在验证Texture2D /Game/Huang/ArtResource/stuff_06.stuff_06
+[2020.08.15-08.06.48:045][635]LogHttp: Warning: 000001FBA4D2D580: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.08.15-08.06.48:045][635]LogHttp: Warning: 000001FBA4D2D580: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.08.15-08.06.48:045][635]LogHttp: Warning: 000001FBA4D2D580: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1fa74b97f70 [can pipeline])
+[2020.08.15-08.06.48:045][635]LogHttp: Warning: 000001FBA4D2D580: libcurl info message cache 1 (Re-using existing connection! (#78) with proxy 127.0.0.1)
+[2020.08.15-08.06.48:045][635]LogHttp: Warning: 000001FBA4D2D580: libcurl info message cache 2 (Connected to 127.0.0.1 (127.0.0.1) port 50114 (#78))
+[2020.08.15-08.06.48:045][635]LogHttp: Warning: 000001FBA4D2D580: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.08.15-08.06.48:045][635]LogHttp: Warning: 000001FBA4D2D580: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.08.15-08.06.48:045][635]LogHttp: Warning: 000001FBA4D2D580: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.08.15-08.06.48:045][635]LogHttp: Warning: 000001FBA4D2D580: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.08.15-08.06.48:045][635]LogHttp: Warning: 000001FBA4D2D580: libcurl info message cache 7 (Closing connection 78)
+[2020.08.15-08.06.48:382][636]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.08.15-08.07.57:656][ 61]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Huang/ArtResource/ant_men.ant_men
+[2020.08.15-08.07.58:572][ 61]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0090 seconds. Added 1 classes and 2 folders.
+[2020.08.15-08.08.10:068][358]LogSlate: Window 'ant_men' being destroyed
+[2020.08.15-08.08.10:078][358]LogSlate: Window 'ant_men' being destroyed
