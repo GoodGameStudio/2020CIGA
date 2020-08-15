@@ -1009,3 +1009,58 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.08.15-05.49.20:240][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/Cherry_ancient_2" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/Cherry_ancient_2_Auto3.uasset" SILENT=false AUTOSAVING=true
 [2020.08.15-05.49.20:253][  9]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Cherry_ancient_2_Auto398796E2D43ACC74792E616B253735F66.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Autosaves/Game/Huang/Cherry_ancient_2_Auto3.uasset'
 [2020.08.15-05.49.20:254][  9]LogFileHelpers: Auto-saving content packages took 0.441
+[2020.08.15-06.05.02:246][645]LogHttp: Warning: 000001FB5CB67740: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.08.15-06.05.02:246][645]LogHttp: Warning: 000001FB5CB67740: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.08.15-06.05.02:246][645]LogHttp: Warning: 000001FB5CB67740: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1fa74b97f70 [can pipeline])
+[2020.08.15-06.05.02:246][645]LogHttp: Warning: 000001FB5CB67740: libcurl info message cache 1 (Re-using existing connection! (#30) with proxy 127.0.0.1)
+[2020.08.15-06.05.02:246][645]LogHttp: Warning: 000001FB5CB67740: libcurl info message cache 2 (Connected to 127.0.0.1 (127.0.0.1) port 50114 (#30))
+[2020.08.15-06.05.02:246][645]LogHttp: Warning: 000001FB5CB67740: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.08.15-06.05.02:246][645]LogHttp: Warning: 000001FB5CB67740: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.08.15-06.05.02:246][645]LogHttp: Warning: 000001FB5CB67740: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.08.15-06.05.02:246][645]LogHttp: Warning: 000001FB5CB67740: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.08.15-06.05.02:246][645]LogHttp: Warning: 000001FB5CB67740: libcurl info message cache 7 (Closing connection 30)
+[2020.08.15-06.05.02:261][646]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.08.15-06.11.07:655][379]LogHttp: Warning: 000001FB5CB67C40: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.08.15-06.11.07:655][379]LogHttp: Warning: 000001FB5CB67C40: request failed, libcurl error: 35 (SSL connect error)
+[2020.08.15-06.11.07:655][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 0 (Connection 32 seems to be dead!)
+[2020.08.15-06.11.07:655][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 1 (Closing connection 32)
+[2020.08.15-06.11.07:655][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.08.15-06.11.07:655][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 3 (  Trying 127.0.0.1...)
+[2020.08.15-06.11.07:655][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 4 (TCP_NODELAY set)
+[2020.08.15-06.11.07:655][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 5 (Connected to 127.0.0.1 (127.0.0.1) port 50114 (#33))
+[2020.08.15-06.11.07:655][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 6 (allocate connect buffer!)
+[2020.08.15-06.11.07:655][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 7 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2020.08.15-06.11.07:655][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 8 (Ignoring Content-Length in CONNECT 200 response)
+[2020.08.15-06.11.07:656][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 9 (Proxy replied OK to CONNECT request)
+[2020.08.15-06.11.07:656][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 10 (CONNECT phase completed!)
+[2020.08.15-06.11.07:656][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 11 (ALPN, offering http/1.1)
+[2020.08.15-06.11.07:656][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 12 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2020.08.15-06.11.07:656][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 13 (SSL re-using session ID)
+[2020.08.15-06.11.07:656][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 14 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2020.08.15-06.11.07:656][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 15 (CONNECT phase completed!)
+[2020.08.15-06.11.07:656][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 16 (CONNECT phase completed!)
+[2020.08.15-06.11.07:656][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 17 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2020.08.15-06.11.07:656][379]LogHttp: Warning: 000001FB5CB67C40: libcurl info message cache 18 (Closing connection 33)
+[2020.08.15-06.11.07:670][380]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6910CC04-428F-B7E2-6612-B8A2D7A814C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=e0df89234ca060952dcaa7b9b23a6560%7C657bc12e680145d8832eea5fff2d64a6%7Caa0a85c3-631b-4c2a-96f8-2db2f4ba6667&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.08.15-06.16.06:450][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/test/NewPaperFlipbook" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/test/NewPaperFlipbook.uasset" SILENT=true
+[2020.08.15-06.16.06:455][907]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/NewPaperFlipbookFFADC1B8410A024760F1E8ACEB668828.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/test/NewPaperFlipbook.uasset'
+[2020.08.15-06.16.06:457][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/Gold_Matte" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Gold_Matte.uasset" SILENT=true
+[2020.08.15-06.16.06:477][907]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Gold_MatteB7330A6947862F3738E69FB10A6454ED.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Gold_Matte.uasset'
+[2020.08.15-06.16.06:479][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/Cherry_ancient_2" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Cherry_ancient_2.uasset" SILENT=true
+[2020.08.15-06.16.06:482][907]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Cherry_ancient_2B0D791A14FF98C83EF78B582B904F8E2.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Cherry_ancient_2.uasset'
+[2020.08.15-06.16.06:484][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/Cherry_ancient_1" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Cherry_ancient_1.uasset" SILENT=true
+[2020.08.15-06.16.06:486][907]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/Cherry_ancient_16CB1112243DD6B8C53AA4C998B9CA3A6.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/Cherry_ancient_1.uasset'
+[2020.08.15-06.16.06:488][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/cabinet" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/cabinet.uasset" SILENT=true
+[2020.08.15-06.16.06:727][907]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/cabinet88AF68034FE5EFE4C16FB786D99E1A02.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/cabinet.uasset'
+[2020.08.15-06.16.06:729][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/淡亚光板" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/淡亚光板.uasset" SILENT=true
+[2020.08.15-06.16.06:731][907]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/淡亚光板02EBB9014EAC17268E0B1EBD2844562D.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/淡亚光板.uasset'
+[2020.08.15-06.16.06:733][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Huang/chair" FILE="D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/chair.uasset" SILENT=true
+[2020.08.15-06.16.06:767][907]LogSavePackage: Moving 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Saved/chairC812B5404480C32B0EFB3F950FF55FE1.tmp' to 'D:/_UE4_Project/2020CIGA/GGStudioGGJ2020/Content/Huang/chair.uasset'
+[2020.08.15-06.16.06:800][907]AssetCheck: New page: 资源保存：多个资源
+[2020.08.15-06.16.06:800][907]LogContentValidation: Display: 正在验证PaperFlipbook /Game/Huang/test/NewPaperFlipbook.NewPaperFlipbook
+[2020.08.15-06.16.06:800][907]LogContentValidation: Display: 正在验证Material /Game/Huang/Gold_Matte.Gold_Matte
+[2020.08.15-06.16.06:800][907]LogContentValidation: Display: 正在验证Material /Game/Huang/Cherry_ancient_2.Cherry_ancient_2
+[2020.08.15-06.16.06:800][907]LogContentValidation: Display: 正在验证Material /Game/Huang/Cherry_ancient_1.Cherry_ancient_1
+[2020.08.15-06.16.06:800][907]LogContentValidation: Display: 正在验证StaticMesh /Game/Huang/cabinet.cabinet
+[2020.08.15-06.16.06:800][907]LogContentValidation: Display: 正在验证Material /Game/Huang/淡亚光板.淡亚光板
+[2020.08.15-06.16.06:800][907]LogContentValidation: Display: 正在验证StaticMesh /Game/Huang/chair.chair
