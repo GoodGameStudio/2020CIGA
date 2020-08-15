@@ -1154,3 +1154,100 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.08.15-09.12.09:875][469]AssetCheck: New page: 资源保存：多个资源
 [2020.08.15-09.12.09:875][469]LogContentValidation: Display: 正在验证World /Game/Trombe/Maps/TrombeDemoMap.TrombeDemoMap
 [2020.08.15-09.12.09:875][469]LogContentValidation: Display: 正在验证MapBuildDataRegistry /Game/Trombe/Maps/TrombeDemoMap_BuiltData.TrombeDemoMap_BuiltData
+[2020.08.15-09.13.30:407][403]LogTemp: Repeating last play command: 选中的视口
+[2020.08.15-09.13.30:418][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.15-09.13.30:418][403]PIE: New page: PIE会话：TrombeDemoMap（2020年8月16日 上午1:13:30）
+[2020.08.15-09.13.30:418][403]LogPlayLevel: Creating play world package: /Game/Trombe/Maps/UEDPIE_0_TrombeDemoMap
+[2020.08.15-09.13.30:421][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002521s)
+[2020.08.15-09.13.30:422][403]LogAIModule: Creating AISystem for world TrombeDemoMap
+[2020.08.15-09.13.30:422][403]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2020.08.15-09.13.30:422][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Trombe/Maps/TrombeDemoMap.TrombeDemoMap to /Game/Trombe/Maps/UEDPIE_0_TrombeDemoMap.TrombeDemoMap (0.003337s)
+[2020.08.15-09.13.30:451][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.08.15-09.13.30:453][403]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.15-09.13.30:453][403]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.15-09.13.30:453][403]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.15-09.13.30:453][403]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.15-09.13.30:454][403]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.15-09.13.30:454][403]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.15-09.13.30:454][403]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.15-09.13.30:454][403]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.15-09.13.30:454][403]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.15-09.13.30:454][403]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.15-09.13.30:469][403]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.08.15-09.13.30:469][403]LogAudioMixer: Display: Name: 扬声器 (High Definition Audio Device)
+[2020.08.15-09.13.30:469][403]LogAudioMixer: Display: Is Default: Yes
+[2020.08.15-09.13.30:469][403]LogAudioMixer: Display: Sample Rate: 48000
+[2020.08.15-09.13.30:469][403]LogAudioMixer: Display: Channel Count Used: 2
+[2020.08.15-09.13.30:469][403]LogAudioMixer: Display: Device Channel Count: 2
+[2020.08.15-09.13.30:469][403]LogAudioMixer: Display: Channel Order:
+[2020.08.15-09.13.30:469][403]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.15-09.13.30:469][403]LogAudioMixer: Display: 1: FrontRight
+[2020.08.15-09.13.30:477][403]LogAudioMixer: Display: Using Audio Device 扬声器 (High Definition Audio Device)
+[2020.08.15-09.13.30:478][403]LogInit: FAudioDevice initialized.
+[2020.08.15-09.13.30:481][403]LogLoad: Game class is '游戏模式_C'
+[2020.08.15-09.13.30:483][403]LogWorld: Bringing World /Game/Trombe/Maps/UEDPIE_0_TrombeDemoMap.TrombeDemoMap up for play (max tick rate 0) at 2020.08.15-17.13.30
+[2020.08.15-09.13.30:483][403]LogWorld: Bringing up level for play took: 0.000791
+[2020.08.15-09.13.30:483][403]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.08.15-09.13.30:485][403]PIE: /Game/Trombe/Maps/UEDPIE_0_TrombeDemoMap在编辑器中运行的起始时间0.781
+[2020.08.15-09.13.53:682][182]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.08.15-09.13.53:682][182]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.08.15-09.13.53:682][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.15-09.13.53:683][182]LogWorld: BeginTearingDown for /Game/Trombe/Maps/UEDPIE_0_TrombeDemoMap
+[2020.08.15-09.13.53:683][182]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.08.15-09.13.53:683][182]LogWorld: UWorld::CleanupWorld for TrombeDemoMap, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-09.13.53:683][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-09.13.53:688][182]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.15-09.13.53:691][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-09.13.53:718][182]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.08.15-09.13.53:720][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.15-09.13.53:723][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.08.15-09.13.53:782][187]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.08.15-09.13.54:579][276]LogTemp: Repeating last play command: 选中的视口
+[2020.08.15-09.13.54:591][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.15-09.13.54:591][276]PIE: New page: PIE会话：TrombeDemoMap（2020年8月16日 上午1:13:54）
+[2020.08.15-09.13.54:591][276]LogPlayLevel: Creating play world package: /Game/Trombe/Maps/UEDPIE_0_TrombeDemoMap
+[2020.08.15-09.13.54:593][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002431s)
+[2020.08.15-09.13.54:594][276]LogAIModule: Creating AISystem for world TrombeDemoMap
+[2020.08.15-09.13.54:594][276]LogPlayLevel: PIE: World Init took: (0.000813s)
+[2020.08.15-09.13.54:594][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Trombe/Maps/TrombeDemoMap.TrombeDemoMap to /Game/Trombe/Maps/UEDPIE_0_TrombeDemoMap.TrombeDemoMap (0.003321s)
+[2020.08.15-09.13.54:622][276]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2020.08.15-09.13.54:623][276]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.15-09.13.54:623][276]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.15-09.13.54:623][276]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.15-09.13.54:623][276]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.15-09.13.54:623][276]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.15-09.13.54:623][276]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.15-09.13.54:623][276]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.15-09.13.54:623][276]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.15-09.13.54:623][276]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.15-09.13.54:623][276]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.15-09.13.54:639][276]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.08.15-09.13.54:639][276]LogAudioMixer: Display: Name: 扬声器 (High Definition Audio Device)
+[2020.08.15-09.13.54:639][276]LogAudioMixer: Display: Is Default: Yes
+[2020.08.15-09.13.54:639][276]LogAudioMixer: Display: Sample Rate: 48000
+[2020.08.15-09.13.54:639][276]LogAudioMixer: Display: Channel Count Used: 2
+[2020.08.15-09.13.54:639][276]LogAudioMixer: Display: Device Channel Count: 2
+[2020.08.15-09.13.54:639][276]LogAudioMixer: Display: Channel Order:
+[2020.08.15-09.13.54:639][276]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.15-09.13.54:639][276]LogAudioMixer: Display: 1: FrontRight
+[2020.08.15-09.13.54:645][276]LogAudioMixer: Display: Using Audio Device 扬声器 (High Definition Audio Device)
+[2020.08.15-09.13.54:646][276]LogInit: FAudioDevice initialized.
+[2020.08.15-09.13.54:652][276]LogLoad: Game class is '游戏模式_C'
+[2020.08.15-09.13.54:654][276]LogWorld: Bringing World /Game/Trombe/Maps/UEDPIE_0_TrombeDemoMap.TrombeDemoMap up for play (max tick rate 0) at 2020.08.15-17.13.54
+[2020.08.15-09.13.54:654][276]LogWorld: Bringing up level for play took: 0.000846
+[2020.08.15-09.13.54:654][276]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.08.15-09.13.54:656][276]PIE: /Game/Trombe/Maps/UEDPIE_0_TrombeDemoMap在编辑器中运行的起始时间0.952
+[2020.08.15-09.14.19:036][200]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.08.15-09.14.19:041][200]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.08.15-09.14.19:061][200]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.08.15-09.14.19:061][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.15-09.14.19:061][200]LogWorld: BeginTearingDown for /Game/Trombe/Maps/UEDPIE_0_TrombeDemoMap
+[2020.08.15-09.14.19:061][200]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.08.15-09.14.19:061][200]LogWorld: UWorld::CleanupWorld for TrombeDemoMap, bSessionEnded=true, bCleanupResources=true
+[2020.08.15-09.14.19:061][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-09.14.19:066][200]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.15-09.14.19:070][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.15-09.14.19:096][200]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.08.15-09.14.19:099][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.15-09.14.19:101][200]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.08.15-09.14.19:142][203]LogPlayLevel: Display: Destroying online subsystem :Context_7
