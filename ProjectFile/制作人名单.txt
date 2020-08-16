@@ -1,18 +1,22 @@
 Producer List
-Scheme- KATOR(YifanWei)
+Game Director-KATOR (YifanWei)
+Scheme- KATOR
 Game Design- KATOR
 Art UI BackGround- Minotaursis
 Art GamePlaying- ShaoyuTang
 Programming- KATOR Trombe HouxinJiao
+Technical Artist- ZilongHuang
 Level Design- ShaoyuTang ZhangyangHu
 Music- Jarrod
 
-Producer List
-Scheme- KATOR (YifanWei)
-Game Design- KATOR
-Art UI BackGround- Minotaursis
-Art GamePlaying- ShaoyuTang
-Programming- KATOR Trombe HouxinJiao
-Level Design- ShaoyuTang ZhangyangHu
-Music- Jarrod
+制作人名单
+项目总监- 魏祎凡
+人物原画 关卡视觉设计- 唐绍宇
+程序- Trombe 魏祎凡 焦厚鑫
+策划- 魏祎凡 虎征阳
+UI-背景设计- 刘宇轩
+TA- 黄子龙 魏祎凡
+音乐-谢瑞
+关卡设计- 虎征阳
+
 
