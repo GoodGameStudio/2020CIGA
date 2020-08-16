@@ -8,7 +8,7 @@ Level Design- ShaoyuTang ZhangyangHu
 Music- Jarrod
 
 Producer List
-Scheme- KATOR
+Scheme- KATOR (YifanWei)
 Game Design- KATOR
 Art UI BackGround- Minotaursis
 Art GamePlaying- ShaoyuTang
